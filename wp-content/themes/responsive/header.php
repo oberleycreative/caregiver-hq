@@ -46,13 +46,6 @@ if ( !defined( 'ABSPATH' ) ) {
 
 <body <?php body_class(); ?>>
 
-<?php responsive_container(); // before container hook ?>
-<div id="container" class="hfeed">
-
-<?php responsive_header(); // before header hook ?>
-	<div class="skip-container cf">
-		<a class="skip-link screen-reader-text focusable" href="#content"><?php _e( '&darr; Skip to Main Content', 'responsive' ); ?></a>
-	</div><!-- .skip-container -->
 	<div id="header">
 
 		<?php responsive_header_top(); // before header content hook ?>
@@ -104,6 +97,15 @@ if ( !defined( 'ABSPATH' ) ) {
 		<?php responsive_header_bottom(); // after header content hook ?>
 
 	</div><!-- end of #header -->
+
+<?php responsive_container(); // before container hook ?>
+<div id="container" class="hfeed">
+
+<?php responsive_header(); // before header hook ?>
+	<div class="skip-container cf">
+		<a class="skip-link screen-reader-text focusable" href="#content"><?php _e( '&darr; Skip to Main Content', 'responsive' ); ?></a>
+	</div><!-- .skip-container -->
+	
 <?php responsive_header_end(); // after header container hook ?>
 
 <?php responsive_wrapper(); // before wrapper container hook ?>

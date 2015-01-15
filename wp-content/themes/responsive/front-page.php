@@ -6,25 +6,6 @@ if ( !defined( 'ABSPATH' ) ) {
 }
 
 /**
- * Site Front Page
- *
- * Note: You can overwrite front-page.php as well as any other Template in Child Theme.
- * Create the same file (name) include in /responsive-child-theme/ and you're all set to go!
- * @see            http://codex.wordpress.org/Child_Themes and
- *                 http://themeid.com/forum/topic/505/child-theme-example/
- *
- * @file           front-page.php
- * @package        Responsive
- * @author         Emil Uzelac
- * @copyright      2003 - 2014 CyberChimps
- * @license        license.txt
- * @version        Release: 1.0
- * @filesource     wp-content/themes/responsive/front-page.php
- * @link           http://codex.wordpress.org/Template_Hierarchy
- * @since          available since Release 1.0
- */
-
-/**
  * Globalize Theme Options
  */
 $responsive_options = responsive_get_options();
@@ -34,7 +15,23 @@ $responsive_options = responsive_get_options();
  * otherwise, display static front page
  * content
  */
-if ( 'posts' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
+?>
+
+<div class="super-hero">
+ 	<!-- <img src="wp-content/themes/pr2014/images/tem-homebknd.jpg">  --><!-- place for main hero image. img for placeholder but use php or whatever for final -->
+
+ 
+
+<div class="super-hero-inner">
+		<div class="super-hero-callout">
+			<h1>Every child thrives.<br><span class="every-child">Together, we pave the path for their success.</span></h1>
+			<p>Since 1832, Pressley Ridge has understood that all children can change and grow and that all family can use support. We help over 5,200 children and families annually through Educational Opportunities, Foster Care Connections, Residential Options, and Community-based Support with locations in Pennsylvania, Delaware, Maryland, Ohio, Virginia, West Virginia, as well as internationally in Portugal and Hungary.</p>
+			<div class="super-hero-links">Hear Our Story &#8226; Become a Parent &#8226; Donate Today</div>
+		</div>
+</div>
+
+
+<? if ( 'posts' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
 	get_template_part( 'home' );
 } elseif ( 'page' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
 	$template = get_post_meta( get_option( 'page_on_front' ), '_wp_page_template', true );

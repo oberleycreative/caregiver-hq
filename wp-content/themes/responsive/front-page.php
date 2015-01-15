@@ -59,7 +59,7 @@ $responsive_options = responsive_get_options();
 } else {
 	get_header();
 
-	get_template_part( 'template-parts/featured-area' );
+	/* get_template_part( 'template-parts/featured-area' ); */
 
 	get_sidebar( 'home' );
 

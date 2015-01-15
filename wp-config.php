@@ -25,7 +25,7 @@ define('DB_USER', 'caregiver');
 define('DB_PASSWORD', 'hiaw$n2lis');
 
 /** MySQL hostname */
-define('DB_HOST', 'caregiverhq.dev.blatbrun.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

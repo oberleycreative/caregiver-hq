@@ -12,14 +12,22 @@ if ( !defined( 'ABSPATH' ) ) {
 
 <div class="super-hero">
  	
+	<div class="super-hero-inner">
+			<div class="super-hero-callout">
+				<h5>Your parents didn't raise a caregiver.</span></h5>
+				<h1>They raised a person who cared.</span></h1>
+			</div>
+	</div>
 
-<div class="super-hero-inner">
-		<div class="super-hero-callout">
-			<h5>Your parents didn't raise a caregiver.</span></h5>
-			<h1>They raised a person who cared.</span></h1>
-		</div>
 </div>
 
+<div class="provides-full">
+ 	
+	<div class="provides-full">
+			<div class="super-hero-callout">
+				<p>CaregiverHQ provides family caregivers with high-quality support, guidance, resources, and a variety of personal solutions – because everyone matters. Let CaregiverHQ care for you.</p>
+			</div>
+	</div>
 
 </div>
 

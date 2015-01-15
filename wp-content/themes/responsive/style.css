@@ -65,3 +65,29 @@ margin: 0 auto;
 text-align: center;
 }
 
+.super-hero-inner {
+max-width: 960px;
+width: 100%;
+margin: 0 auto;
+}
+
+.provides-full {
+position: relative;
+top: 0;
+/* z-index: -1; */
+background: #eaeaea;
+background-size: cover;
+width: 100%;
+height: 228px;
+overflow: visible;
+padding-top: 10px;
+margin: 0 auto;
+text-align: center;
+}
+
+.provides-full-inner {
+max-width: 960px;
+width: 100%;
+margin: 0 auto;
+}
+

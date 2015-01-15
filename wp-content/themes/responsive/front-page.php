@@ -7,7 +7,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
  ?>
-<?php get_header();?>
+
 
 
 <div class="super-hero">

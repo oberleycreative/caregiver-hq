@@ -23,7 +23,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 <div class="provides-full">
  	
-	<div class="provides-full">
+	<div class="provides-full-inner">
 			<div class="super-hero-callout">
 				<p>CaregiverHQ provides family caregivers with high-quality support, guidance, resources, and a variety of personal solutions – because everyone matters. Let CaregiverHQ care for you.</p>
 			</div>

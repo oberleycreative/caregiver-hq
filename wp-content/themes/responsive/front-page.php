@@ -24,6 +24,11 @@ if ( !defined( 'ABSPATH' ) ) {
 </div>
 
 
+<?php responsive_wrapper(); // before wrapper container hook ?>
+	<div id="wrapper" class="clearfix">
+<?php responsive_wrapper_top(); // before wrapper content hook ?>
+<?php responsive_in_wrapper(); // wrapper hook ?>
+
  <?
 
 /**

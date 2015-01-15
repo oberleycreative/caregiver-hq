@@ -46,8 +46,6 @@ if ( !defined( 'ABSPATH' ) ) {
 
 <body <?php body_class(); ?>>
 
-<?php responsive_container(); // before container hook ?>
-<div id="container" class="hfeed">
 
 <?php responsive_header(); // before header hook ?>
 	<div class="skip-container cf">
@@ -105,6 +103,10 @@ if ( !defined( 'ABSPATH' ) ) {
 
 	</div><!-- end of #header -->
 <?php responsive_header_end(); // after header container hook ?>
+
+
+<?php responsive_container(); // before container hook ?>
+<div id="container" class="hfeed">
 
 <?php responsive_wrapper(); // before wrapper container hook ?>
 	<div id="wrapper" class="clearfix">

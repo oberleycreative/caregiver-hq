@@ -31,8 +31,10 @@ Read More:
 
 .header-wrapper {
 	width: 100%;
+	background: #fff;
 }
 
 #header {
 	max-width: 1100px;
+	margin: 0 auto;
 }

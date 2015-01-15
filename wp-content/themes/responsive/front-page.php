@@ -61,6 +61,7 @@ $responsive_options = responsive_get_options();
 
 	/* get_template_part( 'template-parts/featured-area' ); */
 
+
 	get_sidebar( 'home' );
 
 	get_footer();

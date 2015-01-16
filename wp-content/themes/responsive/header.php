@@ -47,6 +47,18 @@ if ( !defined( 'ABSPATH' ) ) {
 <body <?php body_class(); ?>>
 
 
+	<nav class="menu slide-menu-right">
+    <ul>
+        <li><button class="close-menu">Close &rarr;</button></li>
+        <li><a href="#">Care Benefits</a></li>
+        <li><a href="#">Care Coaches</a></li>
+        <li><a href="#">Care Resources</a></li>
+        <li><a href="#">Subscriptions</a></li>
+        <li><a href="#">Testimonials</a></li>
+    </ul>
+	</nav><!-- /slide menu right -->
+
+
 <?php responsive_header(); // before header hook ?>
 	<div class="skip-container cf">
 		<a class="skip-link screen-reader-text focusable" href="#content"><?php _e( '&darr; Skip to Main Content', 'responsive' ); ?></a>
@@ -73,6 +85,8 @@ if ( !defined( 'ABSPATH' ) ) {
 			<div id="logo">
 				<a href="<?php echo home_url( '/' ); ?>"><img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php bloginfo( 'name' ); ?>"/></a>
 			</div><!-- end of #logo -->
+
+			<button class="nav-toggler toggle-slide-right">Push Menu</button>
 
 		<?php endif; // header image was removed ?>
 

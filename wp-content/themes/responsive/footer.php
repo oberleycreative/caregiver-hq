@@ -80,5 +80,10 @@ $responsive_options = responsive_get_options();
 <?php responsive_footer_after(); ?>
 
 <?php wp_footer(); ?>
+
+<!-- js -->
+<script src="js/classie.js"></script>
+<script src="js/nav.js"></script>
+
 </body>
 </html>

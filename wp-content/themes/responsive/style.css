@@ -89,9 +89,9 @@ Read More:
 }
 
 .provides-full-inner {
-max-width: 960px;
-width: 100%;
-margin: 0 auto;
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 .services-frame {
@@ -107,4 +107,22 @@ margin: 0 auto;
 	max-width: 960px;
 	width: 100%;
 	margin: 0 auto;
+}
+
+.widget-title-home h3 {
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: center;
+}
+
+#widgets .textwidget {
+	display: block;
+	margin: 0;
+	line-height: 1.5em;
+	word-wrap: break-word;
+	text-align: center;
 }

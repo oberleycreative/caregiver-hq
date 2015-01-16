@@ -21,3 +21,280 @@
  * 3.
 
  **/
+
+
+/* Global */
+
+.btn {
+	background: #85c5c7;
+	padding: 8px 16px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline;
+	float: left;
+	border-radius: 5px;
+	border-bottom: 4px solid #649495;
+}
+
+.btn-home-services {
+	background: #85c5c7;
+	padding: 8px 16px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline;
+	float: none;
+	text-align: center;
+	border-radius: 5px;
+	border-bottom: 4px solid #649495;
+}
+
+.branded {
+	color: #689a9b;
+}
+
+
+
+/* Header */
+
+.header-wrapper {
+	width: 100%;
+	background: #fff;
+}
+
+#header {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+#container {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#wrapper {
+	max-width: 960px;
+}
+
+.skip-container {
+	background: #fff;
+}
+
+
+
+/* Front Page */
+
+.super-hero {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: url(images/temp_hero.jpg) top left no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 528px;
+	overflow: visible;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.super-hero-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 11%;
+}
+
+.super-hero-callout h1 {
+	color: #fff;
+	font-size: 66px;
+	text-transform: uppercase;
+}
+
+.super-hero-callout h5 {
+	color: #fff;
+	font-size: 23px;
+	text-transform: uppercase;
+}
+
+.super-hero-callout p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.provides-frame {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: #eaeaea;
+	background-size: cover;
+	width: 100%;
+	height: 228px;
+	overflow: visible;
+	padding-top: 40px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.provides-frame-inner {
+	max-width: 815px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.connection-frame {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: #fff;
+	background-size: cover;
+	width: 100%;
+	height: 568px;
+	overflow: visible;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.connection-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.left-half {
+	width: 45%;
+	float: left;
+	margin-top: .75em;
+}
+
+.right-half {
+	width: 45%;
+	float: right;
+	margin-top: 7%;
+}
+
+.right-half .title h2 {
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	color: #85c5c7;
+}
+
+.right-half .block h5 {
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	color: #85c5c7;
+}
+
+.right-half .block p {
+	display: block;
+	margin: 0;
+	font-size: 12px;
+	line-height: 23px;
+	text-align: left;
+}
+
+.section-title h1 {
+	display: block;
+	margin: 3em 0 0 0;
+	padding: 0 0 20px 0;
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 23px;
+	text-align: center;
+	color: #85c5c7;
+}
+
+.section-title-reverse h1 {
+	display: block;
+	margin: 3em 0 0 0;
+	padding: 0 0 20px 0;
+	font-size: 18px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 23px;
+	text-align: center;
+	color: #fff;
+}
+
+.services-frame {
+	background: url(images/3col-temp.jpg) scroll no-repeat;
+	background-size: cover;
+	height: 528px;
+	overflow: visible;
+	padding: 10px;
+	width: 100%;
+}
+
+.services-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.widget-wrapper {
+	margin: 0 0 20px;
+	padding: 0px;
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #f9f9f9;
+}
+
+.widget-title-home {
+	background: #709898;
+	display: block;
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+.widget-title-home h3 {
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#widgets .textwidget {
+	display: block;
+	margin: 0;
+	line-height: 1.5em;
+	word-wrap: break-word;
+	text-align: center;
+}
+
+.featured-resources-frame {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: #eaeaea;
+	background-size: cover;
+	width: 100%;
+	height: 228px;
+	overflow: visible;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+.featured-resources-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}

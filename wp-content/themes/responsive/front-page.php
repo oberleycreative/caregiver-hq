@@ -33,7 +33,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 <?php responsive_wrapper(); // before wrapper container hook ?>
-	<div id="wrapper" class="clearfix">
+	<div id="wrapper" class="clearfix services-frame">
 <?php responsive_wrapper_top(); // before wrapper content hook ?>
 <?php responsive_in_wrapper(); // wrapper hook ?>
 

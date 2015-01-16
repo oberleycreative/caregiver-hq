@@ -29,6 +29,20 @@ Read More:
 
 */
 
+/* Global */
+
+.btn {
+	background: #85c5c7;
+	padding: 8px 16px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline;
+}
+
+/* end global */
+
+
+
 .header-wrapper {
 	width: 100%;
 	background: #fff;

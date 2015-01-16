@@ -80,8 +80,11 @@
 }
 
 
-/* Toggle Buttons */
-
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Globals
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
 button {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
@@ -96,6 +99,25 @@ button {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
+}
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Template
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+body {
+    overflow-x: hidden
+}
+#wrapper {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 section {
     margin-bottom: 30px
@@ -125,7 +147,11 @@ section.toggle {
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
 }
-
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Toggle Buttons
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
 .buttons {
     margin-bottom: 30px;
     text-align: center;
@@ -144,11 +170,12 @@ section.toggle {
 .buttons button:focus {
     outline: none
 }
-
-
-/* Push Menu */
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Menus
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
 /* general style for all menus */
-
 nav.menu {
     position: fixed;
     z-index: 20;
@@ -176,7 +203,6 @@ button.close-menu {
 button.close-menu:focus {
     outline: none
 }
-
 /* slide menu left and right, push menu left and right */
 nav.slide-menu-left,
 nav.slide-menu-right,
@@ -246,7 +272,6 @@ body.pml-open #wrapper {
 body.pmr-open #wrapper {
     left: -300px
 }
-
 /* slide menu top and bottom */
 nav.slide-menu-top,
 nav.slide-menu-bottom,
@@ -311,11 +336,11 @@ body.pmt-open #wrapper {
 body.pmb-open #wrapper {
     top: -100px
 }
-
-
-
-/* Media Queries for Push Menu */
-
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Media Queries
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
 @media all and (max-width: 860px) { 
 	.buttons br {
 	  	display: none
@@ -379,6 +404,8 @@ body.pmb-open #wrapper {
 	  	left: -100%
 	}
 }
+
+
 
 
 /* Front Page */

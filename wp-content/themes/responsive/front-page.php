@@ -37,7 +37,7 @@ if ( !defined( 'ABSPATH' ) ) {
  	
 						<div class="connection-inner">
 								<div class="left-half">
-									<img src="images/temp_hero.jpg" alt="" title="" />
+									<img src="images/circles_temp.jpg" alt="" title="">
 								</div>
 
 								<div class="right-half">

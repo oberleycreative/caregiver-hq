@@ -38,6 +38,7 @@ Read More:
 	text-transform: uppercase;
 	display: inline;
 	float: left;
+	border-radius: 5px;
 }
 
 .btn-home-services {
@@ -48,6 +49,7 @@ Read More:
 	display: inline;
 	float: none;
 	text-align: center;
+	border-radius: 5px;
 }
 
 .branded {

@@ -94,6 +94,26 @@ Read More:
 	margin: 0 auto;
 }
 
+.connection-frame {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: #fff;
+	background-size: cover;
+	width: 100%;
+	height: 228px;
+	overflow: visible;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.connection-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 .services-frame {
 	background: url(images/3col-temp.jpg) scroll no-repeat;
 	background-size: cover;

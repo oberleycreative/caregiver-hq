@@ -32,6 +32,16 @@ if ( !defined( 'ABSPATH' ) ) {
 </div>
 
 
+
+				<div class="connection-frame">
+ 	
+						<div class="connection-inner">
+								<!-- Posts Carousel goes here -->
+						</div>
+
+				</div>
+
+
 <?php responsive_wrapper(); // before wrapper container hook ?>
 	<!-- orig <div id="wrapper" class="clearfix services-frame"> -->
 	<!-- custom --> <div class="clearfix services-frame">

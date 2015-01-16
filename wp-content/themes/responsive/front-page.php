@@ -33,7 +33,9 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 <?php responsive_wrapper(); // before wrapper container hook ?>
-	<div id="wrapper" class="clearfix services-frame">
+	<!-- orig <div id="wrapper" class="clearfix services-frame"> -->
+	<!-- custom --> <div class="clearfix services-frame">
+						<div class="services-container">
 <?php responsive_wrapper_top(); // before wrapper content hook ?>
 <?php responsive_in_wrapper(); // wrapper hook ?>
 
@@ -68,4 +70,5 @@ $responsive_options = responsive_get_options();
 }
 
  responsive_wrapper_bottom(); // after wrapper content hook ?>
-</div><!-- end of #wrapper -->
+	</div> <!-- end of services container -->
+</div><!-- end of #wrapper/services-frame -->

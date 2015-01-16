@@ -99,4 +99,11 @@ margin: 0 auto;
 	height: 528px;
 	overflow: visible;
 	padding: 10px;
+	width: 100%;
+}
+
+.services-container {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
 }

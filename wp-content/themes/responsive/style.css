@@ -113,11 +113,13 @@ Read More:
 .super-hero-callout h1 {
 	color: #fff;
 	font-size: 66px;
+	text-transform: uppercase;
 }
 
 .super-hero-callout h5 {
 	color: #fff;
 	font-size: 23px;
+	text-transform: uppercase;
 }
 
 .super-hero-callout p {

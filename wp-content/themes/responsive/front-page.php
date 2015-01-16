@@ -36,44 +36,48 @@ if ( !defined( 'ABSPATH' ) ) {
 	<!-- orig <div id="wrapper" class="clearfix services-frame"> -->
 	<!-- custom --> <div class="clearfix services-frame">
 						<div class="services-inner">
-<?php responsive_wrapper_top(); // before wrapper content hook ?>
-<?php responsive_in_wrapper(); // wrapper hook ?>
+						<?php responsive_wrapper_top(); // before wrapper content hook ?>
+						<?php responsive_in_wrapper(); // wrapper hook ?>
 
- <?
+						 <?
 
-/**
- * Globalize Theme Options
- */
-$responsive_options = responsive_get_options();
-/**
- * If front page is set to display the
- * blog posts index, include home.php;
- * otherwise, display static front page
- * content
- */
+						/**
+						 * Globalize Theme Options
+						 */
+						$responsive_options = responsive_get_options();
+						/**
+						 * If front page is set to display the
+						 * blog posts index, include home.php;
+						 * otherwise, display static front page
+						 * content
+						 */
 
- if ( 'posts' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
-	get_template_part( 'home' );
-} elseif ( 'page' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
-	$template = get_post_meta( get_option( 'page_on_front' ), '_wp_page_template', true );
-	$template = ( $template == 'default' ) ? 'index.php' : $template;
-	locate_template( $template, true );
-} else {
-	get_header();
+						 if ( 'posts' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
+							get_template_part( 'home' );
+						} elseif ( 'page' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
+							$template = get_post_meta( get_option( 'page_on_front' ), '_wp_page_template', true );
+							$template = ( $template == 'default' ) ? 'index.php' : $template;
+							locate_template( $template, true );
+						} else {
+							get_header();
 
-	/* get_template_part( 'template-parts/featured-area' ); */
-
-
-	get_sidebar( 'home' ); ?>
-
-	</div> <!-- end of services container -->
+							/* get_template_part( 'template-parts/featured-area' ); */
 
 
+							get_sidebar( 'home' ); ?>
+
+							</div> <!-- end of services container -->
+						</div>
 
 
 
- <?
-	get_footer();
+					<div class="featured-resources-frame">
+ 	
+						<div class="featured-resources-inner">
+								<!-- Posts Carousel goes here -->
+						</div>
+
+					</div>
 }
 
  responsive_wrapper_bottom(); // after wrapper content hook ?>

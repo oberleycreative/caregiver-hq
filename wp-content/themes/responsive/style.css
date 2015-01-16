@@ -110,8 +110,14 @@ Read More:
 	margin-top: 11%;
 }
 
-.super-hero-callout h5, h1 {
+.super-hero-callout h1 {
 	color: #fff;
+	font-size: 66px;
+}
+
+.super-hero-callout h5 {
+	color: #fff;
+	font-size: 23px;
 }
 
 .super-hero-callout p {

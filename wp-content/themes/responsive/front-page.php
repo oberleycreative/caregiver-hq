@@ -15,7 +15,7 @@ if ( !defined( 'ABSPATH' ) ) {
 	<div class="super-hero-inner">
 			<div class="super-hero-callout">
 				<h5>Your parents didn't raise a caregiver.</span></h5>
-				<h1>They raised a person who cared.</span></h1>
+				<h1>They raised a person who cares.</span></h1>
 			</div>
 	</div>
 

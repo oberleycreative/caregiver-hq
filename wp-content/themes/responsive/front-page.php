@@ -71,13 +71,20 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 
-					<div class="featured-resources-frame">
+				<div class="featured-resources-frame">
  	
 						<div class="featured-resources-inner">
 								<!-- Posts Carousel goes here -->
 						</div>
 
-					</div>
+				</div>
+
+
+
+
+
+			 <?
+				get_footer();
 }
 
  responsive_wrapper_bottom(); // after wrapper content hook ?>

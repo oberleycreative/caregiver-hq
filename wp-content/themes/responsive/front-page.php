@@ -99,6 +99,7 @@ if ( !defined( 'ABSPATH' ) ) {
 						<div class="featured-resources-inner">
 							<div class="section-title"><h1>Featured Resources</h1></div>
 								<!-- Posts Carousel goes here -->
+							<div class="btn-home-services"><a href="#" alt="">View all resources</a></div>
 						</div>
 
 				</div>

@@ -39,6 +39,7 @@ Read More:
 	display: inline;
 	float: left;
 	border-radius: 5px;
+	border-bottom: 4px solid #649495;
 }
 
 .btn-home-services {
@@ -50,6 +51,7 @@ Read More:
 	float: none;
 	text-align: center;
 	border-radius: 5px;
+	border-bottom: 4px solid #649495;
 }
 
 .branded {

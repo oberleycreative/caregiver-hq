@@ -107,6 +107,11 @@ Read More:
 	color: #fff;
 }
 
+.super-hero-callout p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
 .provides-frame {
 	position: relative;
 	top: 0;
@@ -122,7 +127,7 @@ Read More:
 }
 
 .provides-frame-inner {
-	max-width: 960px;
+	max-width: 815px;
 	width: 100%;
 	margin: 0 auto;
 }

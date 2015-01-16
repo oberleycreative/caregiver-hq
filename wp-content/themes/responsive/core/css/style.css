@@ -425,10 +425,11 @@ svg:not(:root) {
 /* =Links
 -------------------------------------------------------------- */
 a {
-	color: #06c;
+	color: #fff;
 	font-weight: 400;
 	text-decoration: none;
 }
+
 
 a:hover,
 a:focus,

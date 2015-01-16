@@ -69,13 +69,7 @@ $responsive_options = responsive_get_options();
 	</div> <!-- end of services container -->
 
 
-<div class="featured-resources-frame">
- 	
-	<div class="featured-resources-inner">
-			<!-- Posts Carousel goes here -->
-	</div>
 
-</div>
 
 
  <?

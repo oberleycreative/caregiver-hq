@@ -40,6 +40,16 @@ Read More:
 	float: left;
 }
 
+.btn-home-services {
+	background: #85c5c7;
+	padding: 8px 16px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline;
+	float: none;
+	text-align: center;
+}
+
 /* end global */
 
 

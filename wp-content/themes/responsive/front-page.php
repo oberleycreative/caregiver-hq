@@ -86,7 +86,7 @@ if ( !defined( 'ABSPATH' ) ) {
 							get_sidebar( 'home' ); ?>
 
 							<div clear="all"></div>
-							<div class="btn"><a href="#" alt="">Find out which plan is right for you</a></div>
+							<div class="btn-home-services"><a href="#" alt="">Find out which plan is right for you</a></div>
 
 							</div> <!-- end of services container -->
 						</div>

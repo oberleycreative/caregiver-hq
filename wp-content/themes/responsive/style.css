@@ -137,11 +137,22 @@ Read More:
 	color: #85c5c7;
 }
 
+.right-half .block h5 {
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	color: #85c5c7;
+}
+
 .right-half .block p {
 	display: block;
 	margin: 0;
 	font-size: 12px;
-	line-height: 14px;
+	line-height: 23px;
 	text-align: left;
 }
 

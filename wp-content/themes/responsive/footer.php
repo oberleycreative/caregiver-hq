@@ -82,8 +82,8 @@ $responsive_options = responsive_get_options();
 <?php wp_footer(); ?>
 
 <!-- js -->
-<script src="js/classie.js"></script>
-<script src="http://localhost:8888/caregiver-hq/wp-content-themes/Caregiver-HQ/js/nav.js"></script>
+<script src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/js/classie.js"></script>
+<script src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/js/nav.js"></script>
 
 </body>
 </html>

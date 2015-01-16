@@ -126,6 +126,17 @@ Read More:
 	margin-top: .75em;
 }
 
+.right-half .title h2 {
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	color: #85c5c7;
+}
+
 .services-frame {
 	background: url(images/3col-temp.jpg) scroll no-repeat;
 	background-size: cover;

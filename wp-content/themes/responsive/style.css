@@ -181,6 +181,17 @@ Read More:
 	text-align: left;
 }
 
+.section-title-reverse h1 {
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	color: #fff;
+}
+
 .services-frame {
 	background: url(images/3col-temp.jpg) scroll no-repeat;
 	background-size: cover;

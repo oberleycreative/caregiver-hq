@@ -55,6 +55,7 @@ if ( !defined( 'ABSPATH' ) ) {
 	<!-- orig <div id="wrapper" class="clearfix services-frame"> -->
 	<!-- custom --> <div class="clearfix services-frame">
 						<div class="services-inner">
+							<div class="section-title-reverse"><h1>Our Services</h1></div>
 						<?php responsive_wrapper_top(); // before wrapper content hook ?>
 						<?php responsive_in_wrapper(); // wrapper hook ?>
 

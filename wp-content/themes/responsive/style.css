@@ -99,6 +99,10 @@ Read More:
 	margin: 0 auto;
 }
 
+.super-hero-callout h5, h1 {
+	color: #fff;
+}
+
 .provides-frame {
 	position: relative;
 	top: 0;

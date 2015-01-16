@@ -64,11 +64,13 @@ $responsive_options = responsive_get_options();
 	/* get_template_part( 'template-parts/featured-area' ); */
 
 
-	get_sidebar( 'home' );
+	get_sidebar( 'home' ); ?>
 
+	</div> <!-- end of services container -->
+
+ <?
 	get_footer();
 }
 
  responsive_wrapper_bottom(); // after wrapper content hook ?>
-	</div> <!-- end of services container -->
 </div><!-- end of #wrapper/services-frame -->

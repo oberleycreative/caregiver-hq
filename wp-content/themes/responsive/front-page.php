@@ -26,6 +26,8 @@ if ( !defined( 'ABSPATH' ) ) {
 	<div class="provides-frame-inner">
 			<div class="super-hero-callout">
 				<p><span class="branded">CaregiverHQ</span> provides family caregivers with high-quality support, guidance, resources, and a variety of personal solutions – because everyone matters. Let CaregiverHQ care for you.</p>
+				<div clear="all"></div>
+				<div class="btn-home-services"><a href="#" alt="">Learn more</a></div>
 			</div>
 	</div>
 

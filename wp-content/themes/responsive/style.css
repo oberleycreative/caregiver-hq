@@ -190,7 +190,7 @@ Read More:
 	background: #709898;
 	display: block;
 	margin: 0;
-	padding: 0 0 20px 0;
+	padding: 20px;
 }
 
 .widget-title-home h3 {
@@ -201,6 +201,7 @@ Read More:
 	font-weight: 700;
 	line-height: 23px;
 	text-align: center;
+	color: #fff;
 }
 
 #widgets .textwidget {

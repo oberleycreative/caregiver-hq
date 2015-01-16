@@ -85,6 +85,9 @@ if ( !defined( 'ABSPATH' ) ) {
 
 							get_sidebar( 'home' ); ?>
 
+							<div clear="all"></div>
+							<div class="btn"><a href="#" alt="">More Testimonials</a></div>
+
 							</div> <!-- end of services container -->
 						</div>
 

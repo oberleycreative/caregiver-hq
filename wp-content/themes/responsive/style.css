@@ -137,6 +137,14 @@ Read More:
 	color: #85c5c7;
 }
 
+.right-half .title p {
+	display: block;
+	margin: 0;
+	font-size: 12px;
+	line-height: 14px;
+	text-align: left;
+}
+
 .services-frame {
 	background: url(images/3col-temp.jpg) scroll no-repeat;
 	background-size: cover;

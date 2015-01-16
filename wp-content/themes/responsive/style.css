@@ -95,7 +95,8 @@ margin: 0 auto;
 }
 
 .services-frame {
-	background: url(images/3col-temp.jpg) top left no-repeat;
+	background: url(images/3col-temp.jpg) scroll no-repeat;
+	background-size: cover;
 	height: 528px;
 	overflow: visible;
 	padding: 10px;

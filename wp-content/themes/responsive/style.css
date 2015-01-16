@@ -74,7 +74,7 @@ Read More:
 	margin: 0 auto;
 }
 
-.provides-full {
+.provides-frame {
 	position: relative;
 	top: 0;
 	/* z-index: -1; */
@@ -88,7 +88,7 @@ Read More:
 	text-align: center;
 }
 
-.provides-full-inner {
+.provides-frame-inner {
 	max-width: 960px;
 	width: 100%;
 	margin: 0 auto;
@@ -103,7 +103,7 @@ Read More:
 	width: 100%;
 }
 
-.services-container {
+.services-inner {
 	max-width: 960px;
 	width: 100%;
 	margin: 0 auto;

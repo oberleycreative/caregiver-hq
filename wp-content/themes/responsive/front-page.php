@@ -21,9 +21,9 @@ if ( !defined( 'ABSPATH' ) ) {
 
 </div>
 
-<div class="provides-full">
+<div class="provides-frame">
  	
-	<div class="provides-full-inner">
+	<div class="provides-frame-inner">
 			<div class="super-hero-callout">
 				<p>CaregiverHQ provides family caregivers with high-quality support, guidance, resources, and a variety of personal solutions – because everyone matters. Let CaregiverHQ care for you.</p>
 			</div>
@@ -35,7 +35,7 @@ if ( !defined( 'ABSPATH' ) ) {
 <?php responsive_wrapper(); // before wrapper container hook ?>
 	<!-- orig <div id="wrapper" class="clearfix services-frame"> -->
 	<!-- custom --> <div class="clearfix services-frame">
-						<div class="services-container">
+						<div class="services-inner">
 <?php responsive_wrapper_top(); // before wrapper content hook ?>
 <?php responsive_in_wrapper(); // wrapper hook ?>
 
@@ -67,6 +67,18 @@ $responsive_options = responsive_get_options();
 	get_sidebar( 'home' ); ?>
 
 	</div> <!-- end of services container -->
+
+
+<div class="featured-resources-frame">
+ 	
+	<div class="featured-resources-inner">
+			<div class="super-hero-callout">
+				<p>CaregiverHQ provides family caregivers with high-quality support, guidance, resources, and a variety of personal solutions – because everyone matters. Let CaregiverHQ care for you.</p>
+			</div>
+	</div>
+
+</div>
+
 
  <?
 	get_footer();

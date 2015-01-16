@@ -72,9 +72,7 @@ $responsive_options = responsive_get_options();
 <div class="featured-resources-frame">
  	
 	<div class="featured-resources-inner">
-			<div class="super-hero-callout">
-				<p>CaregiverHQ provides family caregivers with high-quality support, guidance, resources, and a variety of personal solutions – because everyone matters. Let CaregiverHQ care for you.</p>
-			</div>
+			<!-- Posts Carousel goes here -->
 	</div>
 
 </div>

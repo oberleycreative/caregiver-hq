@@ -186,6 +186,13 @@ Read More:
 	margin: 0 auto;
 }
 
+.widget-title-home {
+	background: #709898;
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+
 .widget-title-home h3 {
 	display: block;
 	margin: 0;

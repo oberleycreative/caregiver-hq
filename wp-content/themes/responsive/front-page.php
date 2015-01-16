@@ -36,7 +36,14 @@ if ( !defined( 'ABSPATH' ) ) {
 				<div class="connection-frame">
  	
 						<div class="connection-inner">
-								<!-- Posts Carousel goes here -->
+								<div class="left-half">
+
+								</div>
+
+								<div class="right-half">
+									<div class="title"><h2>Caregiver Connection</h2></div>
+									<div class="block"><h5>We can give you a guiding hand</h5><br /><p>“Your advice in your last email was excellent as well. The more I hear it the more I can see more clearly. It feels like I am coming out of a fog after fixating on what is wrong vs. what can help. Thanks so much.”</p></div>
+								</div>
 						</div>
 
 				</div>

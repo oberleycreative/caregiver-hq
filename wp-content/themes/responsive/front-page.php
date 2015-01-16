@@ -97,6 +97,7 @@ if ( !defined( 'ABSPATH' ) ) {
 				<div class="featured-resources-frame">
  	
 						<div class="featured-resources-inner">
+							<div class="section-title"><h1>Featured Resources</h1></div>
 								<!-- Posts Carousel goes here -->
 						</div>
 

@@ -66,3 +66,6 @@ $responsive_options = responsive_get_options();
 
 	get_footer();
 }
+
+ responsive_wrapper_bottom(); // after wrapper content hook ?>
+</div><!-- end of #wrapper -->

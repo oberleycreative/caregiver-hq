@@ -47,6 +47,10 @@ p {
 	color: #666666;
 }
 
+a {
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
+}
+
 .btn {
 	background: #85c5c7;
 	padding: 8px 16px;

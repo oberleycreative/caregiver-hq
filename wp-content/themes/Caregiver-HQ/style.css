@@ -89,6 +89,20 @@ body {
 	display: block;
 }
 
+.right-half .container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	display: inline-block;
+}
+
+.left-half .container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	display: inline-block;
+}
+
 .third {
 	width: 28%;
 	float: none;

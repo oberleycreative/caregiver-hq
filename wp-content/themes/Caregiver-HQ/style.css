@@ -66,6 +66,17 @@
 	margin-bottom: 20px;
 }
 
+.left-half {
+	width: 50%;
+	float: left;
+	margin-top: .75em;
+}
+
+.right-half {
+	width: 50%;
+	float: right;
+	margin-top: 7%;
+}
 
 /* Header */
 
@@ -451,6 +462,13 @@ body.pmb-open #wrapper {
 	text-align: center;
 }
 
+.super-hero.benefits .super-hero-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 6%;
+}
+
 .super-hero-inner {
 	max-width: 960px;
 	width: 100%;
@@ -515,13 +533,13 @@ body.pmb-open #wrapper {
 	margin: 0 auto;
 }
 
-.left-half {
+.connection-inner .left-half {
 	width: 45%;
 	float: left;
 	margin-top: .75em;
 }
 
-.right-half {
+.connection-inner .right-half {
 	width: 45%;
 	float: right;
 	margin-top: 7%;

@@ -70,6 +70,11 @@ body {
 	color: #85c5c7;
 }
 
+.post-title a {
+	display: block;
+	color: #85c5c7;
+}
+
 #content-full {
 	margin-top: 0px;
 	margin-bottom: 20px;

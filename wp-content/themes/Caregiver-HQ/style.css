@@ -90,9 +90,19 @@ body {
 }
 
 .third {
-	width: 33%;
+	width: 28%;
 	float: none;
 	display: inline-block;
+	padding: 20px;
+	border-right: 1px solid #eaeaea;
+}
+
+.third:last-child {
+	width: 28%;
+	float: none;
+	display: inline-block;
+	padding: 20px;
+	border-right: 0px solid #eaeaea;
 }
 
 .container-thirds {

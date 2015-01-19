@@ -95,7 +95,9 @@ $more = 0;
 	?>
 
 </div><!-- end of #content-blog -->
-</div><!-- end of wrapper -->
+
 
 <?php get_sidebar(); ?>
+
+</div><!-- end of wrapper -->
 <?php get_footer(); ?>

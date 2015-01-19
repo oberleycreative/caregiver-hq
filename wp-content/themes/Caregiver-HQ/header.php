@@ -41,6 +41,9 @@ if ( !defined( 'ABSPATH' ) ) {
 		<link rel="profile" href="http://gmpg.org/xfn/11"/>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>"/>
 
+		<script src="//use.typekit.net/cxy8chs.js"></script>
+		<script>try{Typekit.load();}catch(e){}</script>
+
 		<?php wp_head(); ?>
 	</head>
 

@@ -550,6 +550,13 @@ body.pmb-open #wrapper {
 	text-align: center;
 }
 
+.super-hero.resources .super-hero-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
 .super-hero-inner {
 	max-width: 960px;
 	width: 100%;

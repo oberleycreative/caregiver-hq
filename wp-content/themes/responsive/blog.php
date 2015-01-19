@@ -27,6 +27,15 @@ global $more;
 $more = 0;
 ?>
 
+<div class="super-hero benefits">
+<div class="super-hero-inner">
+<div class="super-hero-callout">
+<h2>Caregiver Resources</h2>
+</div>
+</div>
+</div>
+
+
 <div id="wrapper">
 <div id="content-blog" class="<?php echo esc_attr( implode( ' ', responsive_get_content_classes() ) ); ?>">
 

@@ -90,17 +90,21 @@ body {
 }
 
 .right-half .container {
-	width: 100%;
+	width: 60%;
 	margin: 0 auto;
 	position: relative;
-	display: inline-block;
+	display: block;
+	padding: 20px;
+	top: 100px;
 }
 
 .left-half .container {
-	width: 100%;
+	width: 60%;
 	margin: 0 auto;
 	position: relative;
-	display: inline-block;
+	display: block;
+	padding: 20px;
+	top: 100px;
 }
 
 .third {

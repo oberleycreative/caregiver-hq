@@ -66,6 +66,12 @@
 	margin-bottom: 20px;
 }
 
+.inner-conatiner {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
 .left-half {
 	width: 50%;
 	float: left;

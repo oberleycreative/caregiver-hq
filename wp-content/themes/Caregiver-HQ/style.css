@@ -70,16 +70,19 @@
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
+	display: block;
 }
 
 .left-half {
 	width: 49.999%;
 	float: left;
+	display: block;
 }
 
 .right-half {
 	width: 49.999%;
 	float: right;
+	display: block;
 }
 
 /* Header */

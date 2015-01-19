@@ -61,8 +61,13 @@ body {
 	display: none;
 }
 
-.entry-title.post-title {
+.entry-title {
 	display: none;
+}
+
+.post-title {
+	display: block;
+	color: #85c5c7;
 }
 
 #content-full {

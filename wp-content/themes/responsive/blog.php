@@ -27,7 +27,7 @@ global $more;
 $more = 0;
 ?>
 
-<div class="super-hero benefits">
+<div class="super-hero resources">
 <div class="super-hero-inner">
 <div class="super-hero-callout">
 <h2>Caregiver Resources</h2>

@@ -565,6 +565,7 @@ body.pmb-open #wrapper {
 }
 
 .super-hero-callout h1 {
+	font-family: "museo-slab";
 	color: #fff;
 	font-size: 66px;
 	text-transform: uppercase;

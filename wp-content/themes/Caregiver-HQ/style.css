@@ -60,6 +60,13 @@
 .entry-title .post-title {
 	display: none;
 }
+
+#content-full {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+
 /* Header */
 
 .header-wrapper {

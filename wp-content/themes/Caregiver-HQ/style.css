@@ -69,13 +69,11 @@
 .left-half {
 	width: 50%;
 	float: left;
-	margin-top: .75em;
 }
 
 .right-half {
 	width: 50%;
 	float: right;
-	margin-top: 7%;
 }
 
 /* Header */

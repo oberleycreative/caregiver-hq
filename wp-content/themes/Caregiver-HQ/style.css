@@ -605,9 +605,10 @@ body.pmb-open #wrapper {
 }
 
 .super-hero-callout p {
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
 	font-size: 20px;
 	line-height: 30px;
-	color: #fff;
+	color: #666666;
 }
 
 .provides-frame {

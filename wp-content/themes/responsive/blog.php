@@ -36,7 +36,7 @@ $more = 0;
 </div>
 
 
-<div id="wrapper">
+<div class="resources-container">
 <div id="content-blog" class="<?php echo esc_attr( implode( ' ', responsive_get_content_classes() ) ); ?>">
 
 	<?php get_template_part( 'loop-header', get_post_type() ); ?>
@@ -108,5 +108,6 @@ $more = 0;
 
 <?php get_sidebar(); ?>
 
-</div><!-- end of wrapper -->
+</div><!-- end of resources-container -->
+
 <?php get_footer(); ?>

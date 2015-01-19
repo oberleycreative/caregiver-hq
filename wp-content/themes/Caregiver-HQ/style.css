@@ -52,7 +52,10 @@
 	color: #689a9b;
 }
 
-
+.breadcrumb-list {
+	font-size: 12px;
+	display: none;
+}
 
 /* Header */
 

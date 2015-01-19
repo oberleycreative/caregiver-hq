@@ -91,9 +91,10 @@ if ( !defined( 'ABSPATH' ) ) {
             
             		<div class="buttons">
 						<button class="nav-toggler toggle-slide-right">Push Menu</button>
-			</div>
+					</div>
+					
 				</div>
-						</div>
+			</div>
 
 		<?php endif; // header image was removed ?>
 

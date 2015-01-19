@@ -91,6 +91,12 @@
 	display: inline-block;
 }
 
+.container-thirds {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
 /* Header */
 
 .header-wrapper {

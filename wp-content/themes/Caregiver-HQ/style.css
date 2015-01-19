@@ -533,6 +533,13 @@ body.pmb-open #wrapper {
 	text-transform: uppercase;
 }
 
+.super-hero-callout h2 {
+	color: #fff;
+	font-size: 46px;
+	text-transform: uppercase;
+}
+
+
 .super-hero-callout h5 {
 	color: #fff;
 	font-size: 23px;
@@ -542,6 +549,7 @@ body.pmb-open #wrapper {
 .super-hero-callout p {
 	font-size: 20px;
 	line-height: 30px;
+	color: #fff;
 }
 
 .provides-frame {

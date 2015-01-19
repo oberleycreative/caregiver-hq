@@ -85,6 +85,12 @@
 	display: block;
 }
 
+.third {
+	width: 33.333%;
+	float: none;
+	display: block;
+}
+
 /* Header */
 
 .header-wrapper {

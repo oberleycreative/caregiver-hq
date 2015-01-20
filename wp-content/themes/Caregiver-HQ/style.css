@@ -240,6 +240,41 @@ a {
 	border-right: 1px solid #eaeaea;
 }
 
+.third.coach h5 {
+	font-family: "museo-slab";
+	color: #6c9d9d;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.third.coach p {
+	font-size: 12px;
+	text-align: left;
+}
+
+.third.coach img {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.coach-pic {
+
+}
+
+.coach-name {
+
+}
+
+.coach-title {
+
+}
+
+.third.coach .block {
+	width: 80%;
+	margin: 0 auto;
+}
+
 .container-thirds {
 	max-width: 960px;
 	width: 100%;

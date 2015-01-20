@@ -640,6 +640,27 @@ body.pmb-open #wrapper {
 	margin-top: 6%;
 }
 
+.super-hero.coaches {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: url(images/temp_green.jpg) top left no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 415px;
+	overflow: visible;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.super-hero.coaches .super-hero-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 6%;
+}
+
 .super-hero.resources {
 	position: relative;
 	top: 0;

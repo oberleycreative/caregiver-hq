@@ -1,0 +1,1 @@
+$(window).scroll(function(){$(document).scrollTop()>50?($("#header-container").addClass("shrink"),$("#social-top").addClass("hide"),$("#sub-menu-container").addClass("shrink")):($("#header-container").removeClass("shrink"),$("#social-top").removeClass("hide"),$("#sub-menu-container").removeClass("shrink"))});

@@ -10,7 +10,7 @@ if ( !defined( 'ABSPATH' ) ) {
 <?php get_header();?>
 
 
-<div class="super-hero home">
+<div class="super-hero">
  	
 	<div class="super-hero-inner">
 			<div class="super-hero-callout">
@@ -76,12 +76,10 @@ if ( !defined( 'ABSPATH' ) ) {
 
 						 if ( 'posts' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
 							get_template_part( 'home' );
-							
 						} elseif ( 'page' == get_option( 'show_on_front' ) && $responsive_options['front_page'] != 1 ) {
 							$template = get_post_meta( get_option( 'page_on_front' ), '_wp_page_template', true );
 							$template = ( $template == 'default' ) ? 'index.php' : $template;
 							locate_template( $template, true );
-
 						} else {
 							get_header();
 
@@ -89,7 +87,6 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 							get_sidebar( 'home' ); ?>
-							
 
 							<div clear="all"></div>
 							<div class="btn-home-services"><a href="#" alt="">Find out which plan is right for you</a></div>
@@ -113,7 +110,8 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 
-			 <?  get_footer();
+			 <?
+				get_footer();
 }
 
  responsive_wrapper_bottom(); // after wrapper content hook ?>

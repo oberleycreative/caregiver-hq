@@ -201,8 +201,9 @@ a {
 .third h5 {
 	font-family: "museo-slab";
 	color: #6c9d9d;
-	font-size: 16px;
+	font-size: 14px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .third p {
@@ -239,6 +240,18 @@ a {
 
 .gtpm-menu-bar {
 	background: transparent;
+}
+
+
+.widget-title h3, .widget-title-home h3 {
+	display: block;
+	font-family: "museo-slab";
+	color: #6c9d9d;
+	font-size: 14px;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0 0 20px 0;
 }
 
 /* Header */

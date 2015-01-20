@@ -70,7 +70,7 @@ $more = 0;
 						<div class="featured-resources-inner">
 							<div class="section-title"><h1>Featured Resources</h1></div>
 								<!-- Posts Carousel goes here -->
-								<img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test-feed.png" alt="" title="">
+								<img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test-feed.png" class="bot-mar" alt="" title="">
 
 							<div class="btn-home-services"><a href="#" alt="">View all resources</a></div>
 						</div>

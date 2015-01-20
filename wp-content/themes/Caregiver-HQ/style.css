@@ -234,6 +234,10 @@ a {
 	margin: 5em auto;
 }
 
+.gtpm-lining, .gtpm-menu .gtpm-level, .gtpm-menu-bar {
+	background: transparent;
+}
+
 /* Header */
 
 .header-wrapper {

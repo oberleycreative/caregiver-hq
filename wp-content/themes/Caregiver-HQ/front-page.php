@@ -91,24 +91,6 @@ if ( !defined( 'ABSPATH' ) ) {
 							get_sidebar( 'home' ); ?>
 							
 
-							<div clear="all"></div>
-							<div class="btn-home-services"><a href="#" alt="">Find out which plan is right for you</a></div>
-
-							</div> <!-- end of services container -->
-						</div>
-
-
-
-				<div class="featured-resources-frame">
- 	
-						<div class="featured-resources-inner">
-							<div class="section-title"><h1>Featured Resources</h1></div>
-								<!-- Posts Carousel goes here -->
-							<div class="btn-home-services"><a href="#" alt="">View all resources</a></div>
-						</div>
-
-				</div>
-
 
 
 

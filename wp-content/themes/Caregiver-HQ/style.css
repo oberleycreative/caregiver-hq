@@ -745,6 +745,20 @@ body.pmb-open #wrapper {
 	margin: 0 auto;
 }
 
+.services-inner .container-thirds {
+	max-width: 960px;
+	width: 100%;
+	margin: 0em auto;
+}
+
+.services-inner .container-thirds .third {
+	width: 33%;
+	float: none;
+	display: inline-block;
+	padding: 20px;
+	border-right: 1px solid #eaeaea;
+}
+
 .widget-wrapper {
 	margin: 0 0 20px;
 	padding: 0px;

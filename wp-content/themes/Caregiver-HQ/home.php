@@ -25,55 +25,56 @@ global $more;
 $more = 0;
 ?>
 
-	<div id="content-blog" class="<?php echo esc_attr( implode( ' ', responsive_get_content_classes() ) ); ?>">
+	
 
-		<!-- Blog page title -->
-		<?php if ( responsive_free_get_option( 'blog_post_title_toggle' ) ) { ?>
-			<h1> <?php echo responsive_free_get_option( 'blog_post_title_text' ); ?> </h1>
-		<?php } ?>
 
-		<?php get_template_part( 'loop-header', get_post_type() ); ?>
+<div class="container-thirds">
 
-		<?php if ( have_posts() ) : ?>
+<div class="third">
+	<img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/temp_icon.jpg" alt="" title="">
+	<div class="title"><h5>Member Resources</h5></div>
 
-			<?php while( have_posts() ) : the_post(); ?>
+	<div class="block">
+	<p>Here, you have access to our full collection of benefits: the CaregiverHQ newsletter, our own blog full of tips and inspiration, fact sheets, how-tos, and a wide variety of resources designed to help and support you.</p>
+	</div>
+</div>
 
-				<?php responsive_entry_before(); ?>
-				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<?php responsive_entry_top(); ?>
 
-					<?php get_template_part( 'post-meta', get_post_type() ); ?>
+<div class="third">
+	<img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/temp_icon.jpg" alt="" title=""><p></p>
+	<div class="title"><h5>Personal Care Services</h5></div>
+	<div class="block">
+	<p>Does your loved one require in-home care beyond what you are able to provide alone? Trust CaregiverHQ to find high-quality personal care options for you.</p>
+	</div>
+</div>
 
-					<div class="post-entry">
-						<?php if ( has_post_thumbnail() ) : ?>
-							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-								<?php the_post_thumbnail(); ?>
-							</a>
-						<?php endif; ?>
-						<?php the_content( __( 'Read more &#8250;', 'responsive' ) ); ?>
-						<?php wp_link_pages( array( 'before' => '<div class="pagination">' . __( 'Pages:', 'responsive' ), 'after' => '</div>' ) ); ?>
+<div class="third">
+	<img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/temp_icon.jpg" alt="" title=""><p></p>
+	<div class="title"><h5>Legal</h5></div>
+	<div class="block">
+	<p>Whether you need a legal services for estate planning, writing a will, or just getting your loved one’s affairs in order – let our premium network of legal professionals help you.</p>
+	</div>
+</div>
+
+</div>
+
+<div class="btn-home-services"><a href="#" alt="">Find out which plan is right for you</a></div>
+
+
+	
+						</div> <!-- end of services container -->
 					</div>
-					<!-- end of .post-entry -->
 
-					<?php get_template_part( 'post-data', get_post_type() ); ?>
 
-					<?php responsive_entry_bottom(); ?>
-				</div><!-- end of #post-<?php the_ID(); ?> -->
-				<?php responsive_entry_after(); ?>
+				<div class="featured-resources-frame">
+ 	
+						<div class="featured-resources-inner">
+							<div class="section-title"><h1>Featured Resources</h1></div>
+								<!-- Posts Carousel goes here -->
+							<div class="btn-home-services"><a href="#" alt="">View all resources</a></div>
+						</div>
 
-			<?php
-			endwhile;
-
-			get_template_part( 'loop-nav', get_post_type() );
-
-		else :
-
-			get_template_part( 'loop-no-posts', get_post_type() );
-
-		endif;
-		?>
-
-	</div><!-- end of #content-blog -->
+				</div>
 
 
 

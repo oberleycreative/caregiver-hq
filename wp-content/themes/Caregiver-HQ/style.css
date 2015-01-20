@@ -108,6 +108,9 @@ a {
 .post-title a {
 	display: block;
 	color: #85c5c7;
+	text-transform: uppercase;
+	font-weight: lighter;
+	font-size: 24px;
 }
 
 #content-full {

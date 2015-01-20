@@ -758,11 +758,12 @@ body.pmb-open #wrapper {
 	display: inline-block;
 	padding: 0px;
 	background: #fff;
+	border: 0px;
 }
 
 .services-inner .container-thirds .third .title {
 	display: inline-block;
-	padding: 20px;
+	padding: 20px 0 35px 0;
 	background: #729d9e;
 	width: 100%;
 }
@@ -771,6 +772,23 @@ body.pmb-open #wrapper {
 	color: #fff;
 	font-size: 20px;
 	text-transform: uppercase;
+}
+
+.services-inner .container-thirds .third .block {
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+}
+
+
+.services-inner .container-thirds .third .block p {
+	font-size: 14px;
+	color: #666666;	
+	line-height: 25px;
+}
+
+.service-icon {
+	margin-top: -50px;
 }
 
 .widget-wrapper {

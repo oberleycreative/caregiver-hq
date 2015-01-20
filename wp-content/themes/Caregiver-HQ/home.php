@@ -32,6 +32,7 @@ $more = 0;
 
 <div class="third">
 	<div class="title"><h5>Free Trial</h5></div>
+	<img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test_icon.png" class="service-icon" alt="" title="">
 	<div class="block">
 	<p>Proin non purus pharetra, tincidunt ligula ut, imperdiet nulla. Aenean turpis tortor, tempor ut rutrum sit amet, cursus eget sem. Proin laoreet nulla vitae ipsum varius rhoncus.</p>
 	</div>

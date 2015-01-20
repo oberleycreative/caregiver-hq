@@ -122,6 +122,13 @@ a {
 	display: inline-block;
 }
 
+.inner-container.bottom {
+	width: 100%;
+	margin: 40px auto 0px auto;
+	position: relative;
+	display: inline-block;
+}
+
 .left-half {
 	width: 49.999%;
 	float: left;
@@ -172,10 +179,35 @@ a {
 
 .third {
 	width: 33%;
-	float: none;
+	float: left;
 	display: inline-block;
 	padding: 20px;
 	border-right: 1px solid #eaeaea;
+}
+
+.third h5 {
+	font-family: "museo-slab";
+	color: #6c9d9d;
+	font-size: 16px;
+	text-align: center;
+}
+
+.third p {
+	font-size: 12px;
+	text-align: center;
+}
+
+.third img {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.third .icon {
+	width: 100%;
+	float: none;
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .third:last-child {

@@ -74,6 +74,19 @@ a {
 	border-bottom: 4px solid #649495;
 }
 
+.btn-home-services.header {
+	background: #85c5c7;
+	padding: 8px 16px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline;
+	float: none;
+	text-align: center;
+	border-radius: 5px;
+	border-bottom: 4px solid #649495;
+	float: right;
+}
+
 .branded {
 	color: #689a9b;
 }
@@ -115,10 +128,28 @@ a {
 	display: block;
 }
 
+.left-half.benefits-one {
+	height: 410px;
+	background-image: url('http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/left_temp.jpg');
+	background-size: cover;
+}
+
+.left-half.benefits-three {
+	height: 410px;
+	background-image: url('http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/left_temp.jpg');
+	background-size: cover;
+}
+
 .right-half {
 	width: 49.999%;
 	float: right;
 	display: block;
+}
+
+.right-half.benefits-two {
+	height: 410px;
+	background-image: url('http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/right_temp.jpg');
+	background-size: cover;
 }
 
 .right-half .container {
@@ -140,7 +171,7 @@ a {
 }
 
 .third {
-	width: 28%;
+	width: 33%;
 	float: none;
 	display: inline-block;
 	padding: 20px;
@@ -620,6 +651,13 @@ body.pmb-open #wrapper {
 	color: #666666;
 }
 
+.super-hero-callout.reverse p {
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #ffffff;
+}
+
 .provides-frame {
 	position: relative;
 	top: 0;
@@ -697,6 +735,38 @@ body.pmb-open #wrapper {
 }
 
 .right-half .block p {
+	display: block;
+	margin: 0;
+	font-size: 12px;
+	line-height: 23px;
+	text-align: left;
+}
+
+.left-half .title h2 {
+	font-family: "museo-slab";
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	color: #85c5c7;
+}
+
+.left-half .block h5 {
+	font-family: "museo-slab";
+	display: block;
+	margin: 0;
+	padding: 0 0 20px 0;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 23px;
+	text-align: left;
+	color: #85c5c7;
+}
+
+.left-half .block p {
 	display: block;
 	margin: 0;
 	font-size: 12px;

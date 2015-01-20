@@ -92,9 +92,9 @@ if ( !defined( 'ABSPATH' ) ) {
 			</div><!-- end of #logo -->
 
 
-<div class="btn-home-services"><a href="#" alt="">Enroll</a></div>
-<div class="btn-home-services"><a href="#" alt="">Refer</a></div>
 
+<div class="btn-home-services header"><a href="#" alt="">Refer</a></div>
+<div class="btn-home-services header"><a href="#" alt="">Enroll</a></div>
 
 		<?php endif; // header image was removed ?>
 

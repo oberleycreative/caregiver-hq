@@ -166,7 +166,6 @@ a {
 .header-wrapper {
 	width: 100%;
 	background: #fff;
-	height: 95px;
 }
 
 #header {
@@ -523,10 +522,6 @@ body.pmb-open #wrapper {
 
 
 /* Front Page */
-
-.front-page #widgets { 
-	display: none;
-}
 
 .super-hero.home {
 	position: relative;

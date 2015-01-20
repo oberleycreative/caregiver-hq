@@ -91,7 +91,15 @@ if ( !defined( 'ABSPATH' ) ) {
 				<a href="<?php echo home_url( '/' ); ?>"><img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php bloginfo( 'name' ); ?>"/></a>
 			</div><!-- end of #logo -->
 
-		
+			<div id="main">
+        		<div class="container">
+            
+            		<div class="buttons">
+						<button class="nav-toggler toggle-slide-right">Push Menu</button>
+					</div>
+					
+				</div>
+			</div>
 
 		<?php endif; // header image was removed ?>
 

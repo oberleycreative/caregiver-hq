@@ -746,6 +746,19 @@ body.pmb-open #wrapper {
 	margin: 0 auto;
 }
 
+.services-inner .section-title-reverse h1 {
+	font-family: "museo-slab";
+	display: block;
+	margin: 2em 0 .5em 0;
+	padding: 0 0 20px 0;
+	font-size: 32px;
+	font-weight: 700;
+	font-style: italic;
+	line-height: 23px;
+	text-align: center;
+	color: #fff;
+}
+
 .services-inner .container-thirds {
 	max-width: 960px;
 	width: 100%;
@@ -772,11 +785,12 @@ body.pmb-open #wrapper {
 	color: #fff;
 	font-size: 20px;
 	text-transform: uppercase;
+	margin: 0 auto 1em auto;
 }
 
 .services-inner .container-thirds .third .block {
 	display: inline-block;
-	padding: 20px;
+	padding: 0 20px 20px 20px;
 	width: 100%;
 }
 

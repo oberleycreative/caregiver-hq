@@ -144,7 +144,7 @@ a {
 
 .left-half.benefits-three {
 	height: 410px;
-	background-image: url('http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/left_temp.jpg');
+	background-image: url('http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/left_temp_2.jpg');
 	background-size: cover;
 }
 
@@ -234,7 +234,7 @@ a {
 	margin: 5em auto;
 }
 
-.gtpm-lining, .gtpm-menu .gtpm-level, .gtpm-menu-bar {
+.gtpm-menu-bar {
 	background: transparent;
 }
 

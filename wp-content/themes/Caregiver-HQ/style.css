@@ -741,6 +741,34 @@ body.pmb-open #wrapper {
 	color: #ffffff;
 }
 
+.meet-coaches {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: #fff;
+	width: 100%;
+	height: 70px;
+	overflow: visible;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.meet-coaches h3 {
+	font-family: "museo-slab";
+	color: #f7ae7a;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.meet-coacheso-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 9%;
+}
+
 .provides-frame {
 	position: relative;
 	top: 0;

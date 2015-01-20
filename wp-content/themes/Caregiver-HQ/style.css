@@ -733,7 +733,7 @@ body.pmb-open #wrapper {
 .services-frame {
 	background: url(images/3col-temp.jpg) scroll no-repeat;
 	background-size: cover;
-	height: 528px;
+	height: 662px;
 	overflow: visible;
 	padding: 10px;
 	width: 100%;
@@ -741,6 +741,7 @@ body.pmb-open #wrapper {
 
 .services-inner {
 	max-width: 960px;
+	text-align: center;
 	width: 100%;
 	margin: 0 auto;
 }
@@ -748,15 +749,28 @@ body.pmb-open #wrapper {
 .services-inner .container-thirds {
 	max-width: 960px;
 	width: 100%;
-	margin: 0em auto;
+	margin: 0em auto 4em auto;
 }
 
 .services-inner .container-thirds .third {
 	width: 33%;
 	float: none;
 	display: inline-block;
+	padding: 0px;
+	background: #fff;
+}
+
+.services-inner .container-thirds .third .title {
+	display: inline-block;
 	padding: 20px;
-	border-right: 1px solid #eaeaea;
+	background: #729d9e;
+	width: 100%;
+}
+
+.services-inner .container-thirds .third .title h5 {
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
 }
 
 .widget-wrapper {

@@ -1009,9 +1009,14 @@ font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; f
 }
 
 .connection-inner .right-half {
-	width: 45%;
+	width: 47%;
 	float: right;
 	margin-top: 7%;
+	border-bottom: none;
+}
+
+.connection-inner .right-half .btn {
+	margin-top: 2em;
 }
 
 .right-half .title h2 {

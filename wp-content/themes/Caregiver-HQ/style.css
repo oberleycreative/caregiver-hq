@@ -233,11 +233,11 @@ a {
 }
 
 .third.coach {
-	width: 33%;
+	width: 33.333%;
 	float: left;
 	display: inline-block;
 	padding: 0px;
-	border-right: 1px solid #eaeaea;
+	border-right: 0px solid #eaeaea;
 }
 
 .third.coach h5 {
@@ -253,9 +253,12 @@ a {
 	text-align: left;
 }
 
-.third.coach img {
+.third.coach .coach-pic img {
 	margin: 0 auto;
 	text-align: center;
+	background-size: cover;
+	max-width: 580px;
+	width: 100%;
 }
 
 .coach-pic {
@@ -719,7 +722,7 @@ body.pmb-open #wrapper {
 	background: url(images/temp_green.jpg) top left no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 415px;
+	height: 375px;
 	overflow: visible;
 	padding-top: 10px;
 	margin: 0 auto;

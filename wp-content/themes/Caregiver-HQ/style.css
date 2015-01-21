@@ -784,7 +784,8 @@ body.pmb-open #wrapper {
 	font-family: "museo-slab";
 	color: #fff;
 	font-size: 46px;
-	text-transform: uppercase;
+	text-transform: none;
+	font-style: italic;
 }
 
 

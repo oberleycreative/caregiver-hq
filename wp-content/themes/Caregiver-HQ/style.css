@@ -838,6 +838,18 @@ body.pmb-open #wrapper {
 	margin-top: 9%;
 }
 
+.coaches-feature {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: #fff;
+	width: 100%;
+	height: 780px
+	overflow: visible;
+	margin: 0 auto;
+	text-align: center;
+}
+
 .provides-frame {
 	position: relative;
 	top: 0;

@@ -245,7 +245,7 @@ a {
 	width: 33.333%;
 	float: left;
 	display: inline-block;
-	padding: 0px;
+	padding: 0px 3px 0 0;
 	border-right: 0px solid #eaeaea;
 }
 
@@ -266,7 +266,7 @@ a {
 	margin: 0 auto;
 	text-align: center;
 	background-size: cover;
-	max-width: 580px;
+	max-width: 960px;
 	width: 100%;
 }
 

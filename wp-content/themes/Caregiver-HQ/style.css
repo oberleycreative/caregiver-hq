@@ -855,11 +855,11 @@ body.pmb-open #wrapper {
 	margin: 25px 0 0 0;
 }
 
-.meet-coacheso-inner {
+.meet-coaches-inner {
 	max-width: 960px;
 	width: 100%;
 	margin: 0 auto;
-	margin-top: 9%;
+	margin-top: 0%;
 }
 
 .coaches-feature {
@@ -873,6 +873,37 @@ body.pmb-open #wrapper {
 	margin: 0 auto;
 	text-align: center;
 }
+
+
+.hear-what {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: #fff;
+	width: 100%;
+	height: 90px;
+	overflow: visible;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.hear-what h3 {
+	font-family: "museo-slab";
+	color: #689a9b;
+	font-size: 20px;
+	text-transform: uppercase;
+	margin: 25px 0 0 0;
+}
+
+.hear-what-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 0%;
+}
+
 
 .cg-leaders {
 	position: relative;

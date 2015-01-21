@@ -1120,3 +1120,171 @@ body.pmb-open #wrapper {
 	width: 100%;
 	margin: 0 auto;
 }
+
+
+@media screen and (max-width: 480px) {
+	body {
+	}
+
+	#logo {
+		float: none;
+		text-align: center;
+	}
+
+	.grid,
+	.grid-right {
+		float: none;
+	}
+
+	#featured-image .fluid-width-video-wrapper {
+		margin: 20px 0 0 0;
+	}
+
+	.featured-title {
+		padding: 40px 20px 0 20px;
+		font-size: 40px;
+	}
+
+	.featured-subtitle {
+		font-size: 24px;
+	}
+
+	.navigation .next,
+	.navigation .previous {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.menu ul,
+	.menu li,
+	.top-menu,
+	.footer-menu li,
+	.sub-header-menu li {
+		float: none;
+		text-align: center;
+
+		text-rendering: optimizeSpeed;
+	}
+
+	#wrapper .gallery .gallery-item {
+		float: none;
+	}
+
+	.hide-480 {
+		display: none;
+	}
+
+	.show-480 {
+		display: block;
+	}
+
+	#footer {
+		text-align: center;
+	}
+
+	#footer .social-icons {
+		text-align: center;
+	}
+
+	.featured-resources-frame {
+		position: relative;
+		top: 0;
+		/* z-index: -1; */
+		background: #eaeaea;
+		background-size: cover;
+		width: 100%;
+		height: 340px;
+		overflow: visible;
+		padding-top: 10px;
+		margin: 0em auto;
+		text-align: center;
+	}
+
+	.services-frame {
+		background: url(images/3col-temp.jpg) scroll no-repeat;
+		background-size: cover;
+		height: 1500px;
+		overflow: visible;
+		padding: 10px;
+		width: 100%;
+		position: relative;
+	}
+
+	.services-inner .container-thirds .third {
+		width: 95%;
+		float: none;
+		display: inline-block;
+		padding: 0px;
+		background: #fff;
+		border: 0px;
+		margin-top: 2em;
+	}
+
+	a {
+		font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: -1px;
+	}
+
+	.connection-inner .left-half {
+		width: 100%;
+		float: left;
+		margin-top: .75em;
+	}
+
+	.connection-inner .right-half {
+		width: 92%;
+		float: right;
+		margin-top: 13%;
+	}
+
+	.connection-frame {
+		position: relative;
+		top: 0;
+		/* z-index: -1; */
+		background: #fff;
+		background-size: cover;
+		width: 100%;
+		height: 850px;
+		overflow: visible;
+		padding-top: 10px;
+		margin: 0 auto;
+		text-align: center;
+		margin-top: 0;
+	}
+
+	.right-half .btn {
+		background: #85c5c7;
+		padding: 8px 16px;
+		color: #fff;
+		text-transform: uppercase;
+		display: inline;
+		float: left;
+		border-radius: 5px;
+		border-bottom: 4px solid #649495;
+		margin-top: 17px;
+	}
+
+	.services-inner .container-thirds {
+		max-width: 960px;
+		width: 100%;
+		margin: 0em auto 2em auto;
+	}
+
+	.provides-frame {
+		position: relative;
+		top: 0;
+		/* z-index: -1; */
+		background: #eaeaea;
+		background-size: cover;
+		width: 100%;
+		height: 280px;
+		overflow: visible;
+		padding-top: 13px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+}

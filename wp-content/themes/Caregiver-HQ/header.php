@@ -43,6 +43,8 @@ if ( !defined( 'ABSPATH' ) ) {
 
 		<link rel="stylesheet" type="text/css" href="//cloud.typography.com/6028712/745866/css/fonts.css" />
 
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
 		<script src="//use.typekit.net/cxy8chs.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 
@@ -93,8 +95,8 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 
-<div class="btn-home-services header"><a href="#" alt="">Refer</a></div>
-<div class="btn-home-services header"><a href="#" alt="">Enroll</a></div>
+<div class="btn-home-services header"><a href="#" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
+<div class="btn-home-services header"><a href="#" alt=""><i class="fa fa-heart"></i>&nbsp;Enroll</a></div>
 
 		<?php endif; // header image was removed ?>
 

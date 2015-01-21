@@ -315,6 +315,48 @@
 	#footer .social-icons {
 		text-align: center;
 	}
+
+	.featured-resources-frame {
+		position: relative;
+		top: 0;
+		/* z-index: -1; */
+		background: #eaeaea;
+		background-size: cover;
+		width: 100%;
+		height: 340px;
+		overflow: visible;
+		padding-top: 10px;
+		margin: 0em auto;
+		text-align: center;
+	}
+
+	.services-frame {
+		background: url(images/3col-temp.jpg) scroll no-repeat;
+		background-size: cover;
+		height: 1500px;
+		overflow: visible;
+		padding: 10px;
+		width: 100%;
+		position: relative;
+	}
+
+	.services-inner .container-thirds .third {
+		width: 95%;
+		float: none;
+		display: inline-block;
+		padding: 0px;
+		background: #fff;
+		border: 0px;
+		margin-top: 2em;
+	}
+
+	a {
+		font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+		font-weight: 400;
+		font-style: normal;
+		letter-spacing: -1px;
+	}
+
 }
 
 @media screen and (max-width: 320px) {

@@ -856,7 +856,7 @@ body.pmb-open #wrapper {
 	/* z-index: -1; */
 	background: #fff;
 	width: 100%;
-	height: inherit;
+	height: 780px;
 	overflow: visible;
 	margin: 4% auto 0 auto;
 	text-align: center;

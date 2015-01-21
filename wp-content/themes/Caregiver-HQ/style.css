@@ -224,6 +224,15 @@ a {
 	text-align: center;
 }
 
+.third .icon.home {
+	width: 100%;
+	float: none;
+	display: inline-block;
+	margin: -3em auto 0 auto;
+	text-align: center;
+}
+
+
 .third:last-child {
 	width: 33%;
 	float: none;
@@ -1026,7 +1035,7 @@ body.pmb-open #wrapper {
 	color: #fff;
 	font-size: 20px;
 	text-transform: uppercase;
-	margin: 0 auto 1em auto;
+	margin: 0 auto .5em auto;
 }
 
 .services-inner .container-thirds .third .block {

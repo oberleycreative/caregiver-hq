@@ -856,7 +856,7 @@ body.pmb-open #wrapper {
 	/* z-index: -1; */
 	background: #fff;
 	width: 100%;
-	height: 250px;
+	height: inherit;
 	overflow: visible;
 	margin: 4% auto 0 auto;
 	text-align: center;
@@ -885,6 +885,9 @@ body.pmb-open #wrapper {
 	margin: 0 auto;
 }
 
+.leaders-img {
+	margin: 5em auto 1em auto;
+}
 
 .provides-frame {
 	position: relative;
@@ -898,6 +901,75 @@ body.pmb-open #wrapper {
 	padding-top: 40px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+.leaders-block-a {
+	width: 45%;
+	float: left;
+	margin-top: 1%;
+}
+
+.leaders-block-a #leader-title h3 {
+	font-family: "museo-slab";
+	color: #85c5c7;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.leaders-block-a #leader-title h5 {
+	font-family: "museo-slab";
+	color: #85c5c7;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 5px auto;
+}
+
+
+.leaders-block-a #leader-bio p {
+font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666666;
+	width: 100%;
+	text-align: left;
+	margin: 20px auto;
+}
+
+.leaders-block-b {
+	width: 45%;
+	float: right;
+	margin-top: 1%;
+}
+
+.leaders-block-b #leader-title h3 {
+	font-family: "museo-slab";
+	color: #85c5c7;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.leaders-block-b #leader-title h5 {
+	font-family: "museo-slab";
+	color: #85c5c7;
+	font-size: 13px;
+	text-transform: uppercase;
+	text-align: left;
+	margin: 5px auto;
+}
+
+.leaders-block-b #leader-bio p {
+font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
+	font-size: 12px;
+	line-height: 20px;
+	color: #666666;
+	width: 100%;
+	text-align: left;
+	margin: 20px auto;
 }
 
 .provides-frame-inner {

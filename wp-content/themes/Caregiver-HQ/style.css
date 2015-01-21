@@ -173,7 +173,7 @@ a {
 }
 
 .right-half .container {
-	width: 60%;
+	width: 75%;
 	margin: 0 auto;
 	position: relative;
 	display: block;
@@ -182,7 +182,7 @@ a {
 }
 
 .left-half .container {
-	width: 60%;
+	width: 75%;
 	margin: 0 auto;
 	position: relative;
 	display: block;
@@ -808,6 +808,8 @@ body.pmb-open #wrapper {
 	font-size: 16px;
 	line-height: 30px;
 	color: #ffffff;
+	width: 75%;
+	margin: 0 auto;
 }
 
 .meet-coaches {
@@ -873,7 +875,8 @@ body.pmb-open #wrapper {
 	font-family: "museo-slab";
 	color: #85c5c7;
 	font-size: 46px;
-	text-transform: uppercase;
+	text-transform: none;
+	font-style: italic;
 }
 
 .cg-leaders-callout p {

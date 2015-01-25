@@ -48,8 +48,8 @@ if ( !defined( 'ABSPATH' ) ) {
 		<script src="//use.typekit.net/cxy8chs.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
-		<script src="js/jquery.caregiver_modal_box.js"></script>
+		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 
 		<?php wp_head(); ?>

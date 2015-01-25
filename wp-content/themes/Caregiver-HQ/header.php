@@ -97,7 +97,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 <div class="btn-home-services header"><a href="referals/" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
-<a class="twi_modal_uid_9256_open twi_link_style_1" href="#" data-popup-ordinal="0" id="open_11472991">Test Modal</a>
+<div class="btn-home-services header"><a class="twi_modal_uid_7191_open twi_link_style_1" href="#" data-popup-ordinal="0" id="open_15440498"><i class="fa fa-heart"></i>&nbsp;Enroll</a></div>
 
 		<?php endif; // header image was removed ?>
 

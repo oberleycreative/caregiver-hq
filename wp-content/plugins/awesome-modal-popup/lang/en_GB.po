@@ -1,0 +1,515 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TWI Awesome Popup\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-13 05:14+0600\n"
+"PO-Revision-Date: 2014-05-13 05:14+0600\n"
+"Last-Translator: \n"
+"Language-Team: TWI Team <khairulalamruet@gmail.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../admin/shortcode_generator/shortcodes.php:9
+msgid "TWI Awesome Modal/Popup Shortcode"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:10
+msgid "Your Content"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:15
+msgid "Effects"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:19
+msgid "From below"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:23
+msgid "From above"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:27
+msgid "Slide in top"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:31
+msgid "Slide in right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:35
+msgid "Slide in bottom"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:39
+msgid "Slide in left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:43
+msgid "Newspaper 1"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:47
+msgid "Newspaper 2"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:51
+msgid "Newspaper 3"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:55
+msgid "Newspaper 4"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:59
+msgid "Fade in"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:63
+msgid "Super scaled 1"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:67
+msgid "Super scaled 2"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:71
+#: ../admin/shortcode_generator/shortcodes.php:163
+msgid "Tada"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:79
+msgid "Side fall"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:83
+msgid "Flip horizontal 3D 1"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:87
+msgid "Flip horizontal 3D 2"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:91
+msgid "Flip vertical 3D 1"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:95
+msgid "Flip vertical 3D 2"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:99
+msgid "Sign 3D 1"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:103
+msgid "Sign 3D 2"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:107
+msgid "Slit 3D"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:111
+msgid "Rotate from bottom 3D"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:115
+msgid "Rotate from top 3D"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:119
+msgid "Rotate from left 3D 1"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:123
+msgid "Rotate from left 3D 2"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:127
+msgid "Rotate from right 3D 1"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:131
+msgid "Rotate from right 3D 2"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:135
+msgid "Rotate easing"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:139
+msgid "Bounce"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:143
+msgid "Flash"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:147
+msgid "Pulse"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:151
+msgid "Rubber Band"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:155
+msgid "Shake"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:159
+msgid "Swing"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:167
+msgid "Wobble"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:171
+msgid "Bounce In"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:175
+msgid "Bounce In Down"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:179
+msgid "Bounce In Left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:183
+msgid "Bounce In Right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:187
+msgid "Bounce In Up"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:191
+msgid "Fade In Down"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:195
+msgid "Flip"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:199
+msgid "Light Speed In"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:203
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:207
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:211
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:215
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:219
+msgid "Wiggle"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:223
+msgid "Twister In Down"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:227
+msgid "Twister In Up"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:231
+msgid "Vanish In"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:235
+msgid "Open Down Left Retourn"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:239
+msgid "Open Down Right Retourn"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:243
+msgid "Open Up Left Retourn"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:247
+msgid "Open Up Right Retourn"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:251
+msgid "Foolish In"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:259
+msgid "Popup close button"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:260
+msgid "Close me!"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:265
+msgid "Popup link text"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:266
+msgid "My modal link"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:271
+msgid "Overlay background"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:277
+msgid "Modal opacity"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:286
+msgid "Overlap click close"
+msgstr ""
+
+#: ../admin/shortcode_generator/shortcodes.php:303
+msgid "Hide close button"
+msgstr ""
+
+#: ../config.php:19
+msgid "TWI Awesome Modal/Popup Shortcodes"
+msgstr ""
+
+#: ../config.php:20
+msgid "TWI Awesome Modal/Popup"
+msgstr ""
+
+#: ../inc/bootstrap.php:88 ../inc/classes/option.php:357
+#: ../inc/classes/option.php:382
+msgid "Successful"
+msgstr ""
+
+#: ../inc/bootstrap.php:99
+msgid "Unauthorized function"
+msgstr ""
+
+#: ../inc/classes/metabox.php:35
+msgid "[Development Mode] "
+msgstr ""
+
+#: ../inc/classes/metabox.php:564 ../inc/classes/metabox/alchemy.php:493
+msgid "Remove"
+msgstr ""
+
+#: ../inc/classes/metabox.php:586 ../inc/classes/metabox/alchemy.php:515
+msgid "Add More"
+msgstr ""
+
+#: ../inc/classes/option.php:47 ../inc/classes/option.php:48
+msgid "Vafpress Options"
+msgstr ""
+
+#: ../inc/classes/option.php:54
+msgid "Option Key is required"
+msgstr ""
+
+#: ../inc/classes/option.php:56
+msgid "Template Array/File is required"
+msgstr ""
+
+#: ../inc/classes/option.php:58
+msgid "Page Slug is required"
+msgstr ""
+
+#: ../inc/classes/option.php:160
+msgid ""
+"Development Mode is Active, options' values won't be saved into database."
+msgstr ""
+
+#: ../inc/classes/option.php:299
+msgid "Can not be empty"
+msgstr ""
+
+#: ../inc/classes/option.php:324
+msgid "Invalid data"
+msgstr ""
+
+#: ../inc/classes/option.php:387
+msgid "Unverified Access"
+msgstr ""
+
+#: ../inc/classes/option.php:453
+msgid "Invalid template supplied"
+msgstr ""
+
+#: ../inc/classes/option.php:466
+msgid "Utility"
+msgstr ""
+
+#: ../inc/classes/option.php:472 ../inc/views/option/restore.php:13
+msgid "Restore Default"
+msgstr ""
+
+#: ../inc/classes/option.php:481
+msgid "Export/Import"
+msgstr ""
+
+#: ../inc/classes/option/control/set.php:359
+msgid "Saving successful"
+msgstr ""
+
+#: ../inc/classes/option/control/set.php:370
+msgid "Saving failed"
+msgstr ""
+
+#: ../inc/classes/option/control/set.php:376
+msgid "No changes made"
+msgstr ""
+
+#: ../inc/classes/shortcodegenerator.php:260
+msgid "Insert"
+msgstr ""
+
+#: ../inc/classes/shortcodegenerator.php:261
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/config/messages.php:13
+msgid "Value needs to be Alphabet"
+msgstr ""
+
+#: ../inc/config/messages.php:14
+msgid "Value needs to be Alphanumeric"
+msgstr ""
+
+#: ../inc/config/messages.php:15
+msgid "Value needs to be Numeric"
+msgstr ""
+
+#: ../inc/config/messages.php:16
+msgid "Value needs to be Valid Email"
+msgstr ""
+
+#: ../inc/config/messages.php:17
+msgid "Value needs to be Valid URL"
+msgstr ""
+
+#: ../inc/config/messages.php:18
+msgid "Length needs to be less than {0} characters"
+msgstr ""
+
+#: ../inc/config/messages.php:19
+msgid "Length needs to be more than {0} characters"
+msgstr ""
+
+#: ../inc/config/messages.php:20
+msgid "Select no more than {0} items"
+msgstr ""
+
+#: ../inc/config/messages.php:21
+msgid "Select at least {0} items"
+msgstr ""
+
+#: ../inc/config/messages.php:22
+msgid "This is required"
+msgstr ""
+
+#: ../inc/config/messages.php:29
+msgid "Import succeed, option page will be refreshed.."
+msgstr ""
+
+#: ../inc/config/messages.php:30
+msgid "Import failed"
+msgstr ""
+
+#: ../inc/config/messages.php:31
+msgid "Export succeed, copy the JSON formatted options"
+msgstr ""
+
+#: ../inc/config/messages.php:32
+msgid "Export failed"
+msgstr ""
+
+#: ../inc/config/messages.php:33
+msgid "Restoration succeed, option page will be refreshed.."
+msgstr ""
+
+#: ../inc/config/messages.php:34
+msgid "Options identical to default"
+msgstr ""
+
+#: ../inc/config/messages.php:35
+msgid "Restoration failed"
+msgstr ""
+
+#: ../inc/config/messages.php:43
+msgid "Select option(s)"
+msgstr ""
+
+#: ../inc/config/messages.php:45
+msgid "Select an Icon"
+msgstr ""
+
+#: ../inc/views/control/upload.php:5
+msgid "Choose File"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:4 ../inc/views/option/impexp.php:14
+msgid "Import"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:7
+msgid "Import Options"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:27 ../inc/views/option/impexp.php:37
+msgid "Export"
+msgstr ""
+
+#: ../inc/views/option/impexp.php:30
+msgid "Export Options"
+msgstr ""
+
+#: ../inc/views/option/restore.php:4
+msgid "Restore Default Options"
+msgstr ""
+
+#: ../inc/views/option/restore.php:7
+msgid "Restore options to initial default values."
+msgstr ""
+
+#: ../inc/views/option/restore.php:14
+msgid ""
+"** Please make sure you have already make a backup data of your current "
+"settings. Once you click this button, your current settings will be gone."
+msgstr ""
+
+#: ../inc/views/option/set.php:69 ../inc/views/option/set.php:84
+msgid "Save Changes"
+msgstr ""
+
+#: ../inc/views/option/set.php:70 ../inc/views/option/set.php:85
+msgid "Saving Now"
+msgstr ""
+
+#: ../inc/views/option/set.php:93
+#, php-format
+msgid ""
+"This option panel is built using <a href=\"http://vafpress.com/vafpress-"
+"framework\">Vafpress Framework %s</a> powered by <a href=\"http://vafpress."
+"com\">Vafpress</a>"
+msgstr ""

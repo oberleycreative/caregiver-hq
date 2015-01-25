@@ -48,8 +48,6 @@ if ( !defined( 'ABSPATH' ) ) {
 		<script src="//use.typekit.net/cxy8chs.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 
-		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 
 		<?php wp_head(); ?>
@@ -100,7 +98,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 <div class="btn-home-services header"><a href="referals/" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
-<div class="btn-home-services header"><a href="#" class="caregiver_modal">Click Here</a></div>
+
 <div class="btn-home-services header"><a href="#" alt=""><i class="fa fa-heart"></i>&nbsp;Enroll</a></div>
 
 		<?php endif; // header image was removed ?>

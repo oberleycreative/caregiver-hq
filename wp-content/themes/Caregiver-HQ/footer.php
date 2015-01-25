@@ -85,6 +85,5 @@ $responsive_options = responsive_get_options();
 <!-- js -->
 
 
-
 </body>
 </html>

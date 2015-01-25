@@ -355,6 +355,20 @@ a {
 	margin-top: 0%;
 }
 
+/* Footer */
+
+#footer-wrapper .left-container {
+	width: 40.999%;
+	float: left;
+}
+
+#footer-wrapper .right-container {
+	width: 58.999%;
+	float: left;
+}
+
+
+
 /* ------------------------------------------------------------ *\
 |* ------------------------------------------------------------ *|
 |* Globals

@@ -40,7 +40,15 @@ $responsive_options = responsive_get_options();
 
 		<div class="grid col-940">
 
-			<div class="grid col-540">
+			<div class="left-container fit">
+				<div id="logo">
+				<a href="http://localhost:8888/caregiver-hq/"><img src="http://localhost:8888/caregiver-hq/wp-content/uploads/2015/01/cropped-QLHC_Logo.png" width="380" height="80" alt="Highmark Caregiver-HQ"></a>
+				</div>
+				<?php echo responsive_get_social_icons() ?>
+			</div><!-- end of col-380 fit -->
+
+
+			<div class="right-container">
 				<?php if ( has_nav_menu( 'footer-menu', 'responsive' ) ) {
 					wp_nav_menu( array(
 						'container'      => '',
@@ -50,10 +58,6 @@ $responsive_options = responsive_get_options();
 					) );
 				} ?>
 			</div><!-- end of col-540 -->
-
-			<div class="grid col-380 fit">
-				<?php echo responsive_get_social_icons() ?>
-			</div><!-- end of col-380 fit -->
 
 		</div><!-- end of col-940 -->
 		<?php get_sidebar( 'colophon' ); ?>
@@ -67,10 +71,7 @@ $responsive_options = responsive_get_options();
 		<div class="grid col-300 scroll-top"><a href="#scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"><?php _e( '&uarr;', 'responsive' ); ?></a></div>
 
 		<div class="grid col-300 fit powered">
-			<a href="<?php echo esc_url( 'http://cyberchimps.com/responsive-theme/' ); ?>" title="<?php esc_attr_e( 'Responsive Theme', 'responsive' ); ?>">
-				Responsive Theme</a>
-			<?php esc_attr_e( 'powered by', 'responsive' ); ?> <a href="<?php echo esc_url( 'http://wordpress.org/' ); ?>" title="<?php esc_attr_e( 'WordPress', 'responsive' ); ?>">
-				WordPress</a>
+			<a href="#"><img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/naipc.png" alt="" title=""></a>
 		</div><!-- end .powered -->
 
 	</div><!-- end #footer-wrapper -->
@@ -82,6 +83,13 @@ $responsive_options = responsive_get_options();
 <?php wp_footer(); ?>
 
 <!-- js -->
+
+<script>
+$(document).ready(function(){
+	$('.caregiver_modal').paulund_modal_box();
+});
+</script>
+
 <script src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/js/classie.js"></script>
 <script src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/js/nav.js"></script>
 

@@ -100,7 +100,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 
 <div class="btn-home-services header"><a href="referals/" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
-<a href="#" class="caregiver_modal">Click Here</a>
+<div class="btn-home-services header"><a href="#" class="caregiver_modal">Click Here</a></div>
 <div class="btn-home-services header"><a href="#" alt=""><i class="fa fa-heart"></i>&nbsp;Enroll</a></div>
 
 		<?php endif; // header image was removed ?>

@@ -84,11 +84,5 @@ $responsive_options = responsive_get_options();
 
 <!-- js -->
 
-<script>
-$(document).ready(function(){
-	$('.paulund_modal').paulund_modal_box();
-});
-</script>
-
 </body>
 </html>

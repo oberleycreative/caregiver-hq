@@ -34,30 +34,30 @@ $more = 0;
 	<div class="title"><h5>Free Trial</h5></div>
 	<div class="icon home"><img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test_icon.png" class="service-icon" alt="" title=""></div>
 	<div class="block">
-	<p>Proin non purus pharetra, tincidunt ligula ut, imperdiet nulla. Aenean turpis tortor, tempor ut rutrum sit amet, cursus eget sem. Proin laoreet nulla vitae ipsum varius rhoncus.</p>
+	<p>Our 30-day free trial comes with one introductory coaching session, access to our CaregiverHQ newsletter, CaregiverHQ calendar of events, and our resource library full of articles, tips, and inspirational posts.</p>
 	</div>
 </div>
 
 
 <div class="third">
-	<div class="title"><h5>Standard</h5></div>
+	<div class="title"><h5>Standard/Basic Care Package</h5></div>
 	<div class="icon home"><img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test_icon.png" class="service-icon" alt="" title=""></div>
 	<div class="block">
-	<p>Proin non purus pharetra, tincidunt ligula ut, imperdiet nulla. Aenean turpis tortor, tempor ut rutrum sit amet, cursus eget sem. Proin laoreet nulla vitae ipsum varius rhoncus.</p>
+	<p>This subscription places you with your own personal care coach, unlimited coaching sessions, accemss to our premium service provider network, exclusive invitations to webinars and events, and your own personal caregiving roadmap. </p>
 	</div>
 </div>
 
 <div class="third">
-	<div class="title"><h5>Premium</h5></div>
+	<div class="title"><h5>Premium/Care Package Plus/Custom Care Package</h5></div>
 	<div class="icon home"><img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test_icon.png" class="service-icon" alt="" title=""></div>
 	<div class="block">
-	<p>Proin non purus pharetra, tincidunt ligula ut, imperdiet nulla. Aenean turpis tortor, tempor ut rutrum sit amet, cursus eget sem. Proin laoreet nulla vitae ipsum varius rhoncus.</p>
+	<p>The total care package. This subscription provides everything found in the basic care package plus your own personal, supportive care coach agent at your service. Your coach will search through our premium service providers to schedule appointments and set up services for you.</p>
 	</div>
 </div>
 
 </div>
 
-<div class="btn-home-services"><a href="subscriptions/" alt="">Find out which plan is right for you</a></div>
+<div class="btn-home-services"><a href="subscriptions/" alt="">Enroll Now</a></div>
 
 
 	

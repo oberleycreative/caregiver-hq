@@ -790,13 +790,14 @@ form div {
 #footer {
 	clear: both;
 	max-width: 960px;
-	margin: 0 auto;
+	margin: 2em auto;
 	padding: 0 25px 0 25px;
 }
 
 #footer-wrapper {
 	margin: 0;
 	padding: 0;
+	margin-top: 2em;
 }
 
 /* =Header
@@ -2812,6 +2813,7 @@ table.cart td.actions .coupon .input-text {
 #footer {
 	font-size: 11px;
 	line-height: 1.5em;
+	margin-top: 2em;
 }
 
 #footer a {
@@ -2825,6 +2827,7 @@ table.cart td.actions .coupon .input-text {
 
 #footer-wrapper .grid.col-940 {
 	margin: 0;
+	margin-top: 2em;
 }
 
 .scroll-top {

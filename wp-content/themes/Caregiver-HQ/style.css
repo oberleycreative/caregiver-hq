@@ -61,7 +61,64 @@ a {
 }
 
 .gtpm-menu-bar {
-	background: transparent;
+	background-color: transparent;
+}
+
+form p {
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: #666666;
+	float: left;
+	width: 50%;
+}
+
+form p.input-right {
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: #666666;
+	float: right;
+	width: 50%;
+}
+
+form p.city {
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: #666666;
+	float: left;
+	width: 20%;
+}
+
+form p.state {
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: #666666;
+	float: left;
+	width: 10%;
+	margin-left: 1em;
+}
+
+form p.zip {
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 20px;
+	color: #666666;
+	float: left;
+	width: 10%;
+	margin-left: 1em;
+}
+
+select {
+	padding: 0.1em 0.2em 0;
+	font-size: 15px;
 }
 
 .btn {

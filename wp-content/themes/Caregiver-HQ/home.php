@@ -57,7 +57,7 @@ $more = 0;
 
 </div>
 
-<div class="btn-home-services"><a href="#" alt="">Find out which plan is right for you</a></div>
+<div class="btn-home-services"><a href="subscriptions/" alt="">Find out which plan is right for you</a></div>
 
 
 	

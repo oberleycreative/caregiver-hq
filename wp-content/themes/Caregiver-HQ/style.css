@@ -51,6 +51,27 @@ a {
 	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
 }
 
+.gtpm-menu-bar.gtpm-menu-btn-square.gtpm-menu-btn-square-right {
+	right: 200px;
+}
+
+#brand {
+	width: 50%;
+	float: left;
+}
+
+#enroll {
+	width: 15%;
+	float: left;
+	margin-top: 2%;
+}
+
+#refer {
+	width: 20%;
+	float: left;
+	margin-top: 2%;
+}
+
 .gtpm-menu ul li > a {
 	-webkit-transition: border-color .3s;
 	-moz-transition: border-color .3s;
@@ -290,7 +311,7 @@ span.wpcf7-list-item {
 	text-align: center;
 	border-radius: 5px;
 	border-bottom: 4px solid #649495;
-	float: right;
+	float: left;
 }
 
 .branded {
@@ -563,6 +584,62 @@ span.wpcf7-list-item {
 }
 
 /* Footer */
+
+
+.footer-call {
+	text-align: left;
+	width: 72%;
+	display: inline-block;
+	position: relative;
+}
+
+.footer-call p {
+	font-size: 14px;
+}
+
+.footer-social {
+	text-align: right;
+	width: 24%;
+	display: inline-block;
+	position: relative;
+}
+
+.footer-number {
+	color: #85c5c7;
+}
+
+.copyright {
+	text-align: left;
+	margin-top: 2em;
+}
+
+.scroll-top {
+	margin-top: 2em;
+}
+
+.powered {
+	margin-top: 2em;
+}
+
+.footer-menu {
+	margin-left: 0;
+	padding: 0;
+	margin: 2em 1em 1em 10em;
+}
+
+.footer-menu li {
+	display: inline;
+	list-style-type: none;
+	font-family: "museo-slab";
+}
+
+#footer a {
+	color: #666666;
+	font-weight: bold;
+	font-family: "museo-slab";
+	font-size: 14px;
+	letter-spacing: 2px;
+}
 
 #footer-wrapper .left-container {
 	width: 40.999%;

@@ -78,14 +78,19 @@ if ( !defined( 'ABSPATH' ) ) {
 
 		<?php if ( get_header_image() != '' ) : ?>
 
+<div id="brand">
 			<div id="logo">
 				<a href="<?php echo home_url( '/' ); ?>"><img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="<?php bloginfo( 'name' ); ?>"/></a>
 			</div><!-- end of #logo -->
+</div>
 
-
-
-<div class="btn-home-services header"><a href="referals/" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
+<div id="enroll">
 <div class="btn-home-services header"><a href="enrollment/" alt=""><i class="fa fa-heart"></i>&nbsp;Enroll</a></div>
+</div>
+
+<div id="refer">
+<div class="btn-home-services header"><a href="referals/" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
+</div>
 
 		<?php endif; // header image was removed ?>
 

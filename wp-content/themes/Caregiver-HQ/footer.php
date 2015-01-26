@@ -44,7 +44,8 @@ $responsive_options = responsive_get_options();
 				<div id="logo">
 				<a href="http://localhost:8888/caregiver-hq/"><img src="http://localhost:8888/caregiver-hq/wp-content/uploads/2015/01/cropped-QLHC_Logo.png" width="380" height="80" alt="Highmark Caregiver-HQ"></a>
 				</div>
-				<?php echo responsive_get_social_icons() ?>
+				<div class="footer-call"><p>CALL: <span class="footer-number">844-321-CGHQ (2447)</span></p></div>
+				<div class="footer-social"><?php echo responsive_get_social_icons() ?></div>
 			</div><!-- end of col-380 fit -->
 
 

@@ -25,7 +25,7 @@ if ( !defined( 'ABSPATH' ) ) {
  	
 	<div class="provides-frame-inner">
 			<div class="super-hero-callout">
-				<p><span class="branded">CaregiverHQ</span> provides family caregivers with high-quality support, guidance, resources, and a variety of personal solutions – because everyone matters. Let CaregiverHQ care for you.</p>
+				<p><span class="branded">CaregiverHQ</span> provides family caregivers with first-rate guidance, resources, and knowledge, as well as access to premium health and wellness providers, online caregiver support groups, and a variety of personal solutions. Providing caregiver support is our number one priority. Whether you’re a full-time caregiver or you’ve just recently taken on the role, we’re here to provide all the resources you need to properly take care of your loved one – and yourself.</p>
 				<div clear="all"></div>
 				<div class="btn-home-services"><a href="#" alt="">Learn more</a></div>
 			</div>

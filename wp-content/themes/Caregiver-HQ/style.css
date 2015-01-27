@@ -1501,6 +1501,7 @@ font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; f
 	padding: 0px;
 	background: #fff;
 	border: 0px;
+	vertical-align: top;
 }
 
 .services-inner .container-thirds .third .title {
@@ -1521,6 +1522,7 @@ font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; f
 	display: inline-block;
 	padding: 0 20px 20px 20px;
 	width: 100%;
+	min-height: 290px;
 }
 
 

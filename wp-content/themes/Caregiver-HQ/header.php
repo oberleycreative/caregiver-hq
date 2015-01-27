@@ -89,7 +89,7 @@ if ( !defined( 'ABSPATH' ) ) {
 </div>
 
 <div id="refer">
-<div class="btn-home-services header"><a href="referals/" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
+<div class="btn-home-services header"><a href="referrals/" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
 </div>
 
 		<?php endif; // header image was removed ?>

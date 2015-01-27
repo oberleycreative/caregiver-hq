@@ -40,7 +40,7 @@ $more = 0;
 
 
 <div class="third">
-	<div class="title"><h5>Standard/Basic Care Package</h5></div>
+	<div class="title"><h5>Basic Package</h5></div>
 	<div class="icon home"><img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test_icon.png" class="service-icon" alt="" title=""></div>
 	<div class="block">
 	<p>This subscription places you with your own personal care coach, unlimited coaching sessions, accemss to our premium service provider network, exclusive invitations to webinars and events, and your own personal caregiving roadmap. </p>
@@ -48,7 +48,7 @@ $more = 0;
 </div>
 
 <div class="third">
-	<div class="title"><h5>Premium/Care Package Plus/Custom Care Package</h5></div>
+	<div class="title"><h5>Premium Package</h5></div>
 	<div class="icon home"><img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test_icon.png" class="service-icon" alt="" title=""></div>
 	<div class="block">
 	<p>The total care package. This subscription provides everything found in the basic care package plus your own personal, supportive care coach agent at your service. Your coach will search through our premium service providers to schedule appointments and set up services for you.</p>

@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2015-02-02 19:07:19
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.12
+WORDPRESS:	4.1
+PHP INFO:	5.6.2 | SAPI: apache2handler
+SERVER:		Apache/2.2.29 (Unix) mod_fastcgi/2.4.6 mod_wsgi/3.4 Python/2.7.8 PHP/5.6.2 mod_ssl/2.2.29 OpenSSL/0.9.8za DAV/2 mod_perl/2.0.8 Perl/v5.20.0 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+MEMORY STACK: 20.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP (query limit - 100)
+MYSQLDUMP:    Not Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:16 | filtered:0 | create:16 
+FILTERED: [] 
+SQL CREATED: 20150202_caregiverhq_54cfcadc1538a2366150202190708_database.sql 
+SQL FILE SIZE: 1.32MB 
+SQL FILE TIME: 2015-02-02 19:07:19 
+SQL RUNTIME: 0.07 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /Applications/MAMP/sites/caregiver-hq 
+ARCHIVE FILE: 20150202_caregiverhq_54cfcadc1538a2366150202190708_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	55.44MB 
+STATS:	Dirs 593 | Files 5,980 | Links 0 
+SQL ADDED: 20150202_caregiverhq_54cfcadc1538a2366150202190708_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6573
+    [filename] => /Applications/MAMP/sites/caregiver-hq/wp-snapshots/tmp/20150202_caregiverhq_54cfcadc1538a2366150202190708_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 31.18MB 
+ARCHIVE RUNTIME: 10.10 sec. 
+MEMORY STACK: 22.75MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/Applications/MAMP/sites/caregiver-hq/wp-snapshots/tmp/20150202_caregiverhq_54cfcadc1538a2366150202190708_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 1.32MB 
+Installer File: 316.88KB 
+Archive File: 31.18MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 10.80 sec.
+PEAK PHP MEMORY USED: 24.75MB
+DONE PROCESSING => 20150202_caregiverhq 2015-02-02 19:07:30
+ 

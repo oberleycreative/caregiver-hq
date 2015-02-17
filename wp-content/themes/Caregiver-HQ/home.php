@@ -66,14 +66,32 @@ $more = 0;
 
 
 				<div class="featured-resources-frame">
+
+					<div class="section-title"><h1>Featured Resources</h1></div>
  	
 						<div class="featured-resources-inner">
-							<div class="section-title"><h1>Featured Resources</h1></div>
+					
 								<!-- Posts Carousel goes here -->
-								<img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test-feed.png" class="bot-mar" alt="" title="">
+								<?php if ( have_posts() ) : 
 
-							<div class="btn-home-services"><a href="#" alt="">View all resources</a></div>
+			       					$recentPosts = new WP_Query();
+			       					$recentPosts->query('showposts=1'); ?>
+
+									<?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
+									
+									
+									<?php the_title( '<h3>', '</h3>' ); ?>
+									<div class="front-date"><?php the_date(); ?></div>
+									<?php the_excerpt(); ?> 
+
+								<?php endwhile; else : ?>
+									<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
+								<?php endif; ?>				
+								<!-- end test -->
+
 						</div>
+
+						<div class="btn-home-services"><a href="#" alt="">View all resources</a></div>
 
 				</div>
 

@@ -14,7 +14,7 @@ if ( !defined( 'ABSPATH' ) ) {
  * @copyright      2003 - 2014 CyberChimps
  * @license        license.txt
  * @version        Release: 1.1.0
- * @filesource     wp-content/themes/responsive/home.php
+ * @filesource     http://caregiverhq.blatbrun.com/wp-content/themes/responsive/home.php
  * @link           http://codex.wordpress.org/Templates
  * @since          available since Release 1.0
  */
@@ -32,7 +32,7 @@ $more = 0;
 
 <div class="third">
 	<div class="title"><h5>Free Trial</h5></div>
-	<div class="icon home"><img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test_icon.png" class="service-icon" alt="" title=""></div>
+	<div class="icon home"><img src="http://caregiverhq.blatbrun.com/wp-content/themes/caregiver-hq/images/test_icon.png" class="service-icon" alt="" title=""></div>
 	<div class="block">
 	<p>Our 30-day free trial comes with one introductory coaching session, access to our CaregiverHQ newsletter, CaregiverHQ calendar of events, and our resource library full of articles, tips, and inspirational posts.</p>
 	</div>
@@ -41,7 +41,7 @@ $more = 0;
 
 <div class="third">
 	<div class="title"><h5>Basic Package</h5></div>
-	<div class="icon home"><img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test_icon.png" class="service-icon" alt="" title=""></div>
+	<div class="icon home"><img src="http://caregiverhq.blatbrun.com/wp-content/themes/caregiver-hq/images/test_icon.png" class="service-icon" alt="" title=""></div>
 	<div class="block">
 	<p>This subscription places you with your own personal care coach, unlimited coaching sessions, accemss to our premium service provider network, exclusive invitations to webinars and events, and your own personal caregiving roadmap. </p>
 	</div>
@@ -49,7 +49,7 @@ $more = 0;
 
 <div class="third">
 	<div class="title"><h5>Premium Package</h5></div>
-	<div class="icon home"><img src="http://localhost:8888/caregiver-hq/wp-content/themes/Caregiver-HQ/images/test_icon.png" class="service-icon" alt="" title=""></div>
+	<div class="icon home"><img src="http://caregiverhq.blatbrun.com/wp-content/themes/caregiver-hq/images/test_icon.png" class="service-icon" alt="" title=""></div>
 	<div class="block">
 	<p>The total care package. This subscription provides everything found in the basic care package plus your own personal, supportive care coach agent at your service. Your coach will search through our premium service providers to schedule appointments and set up services for you.</p>
 	</div>
@@ -66,32 +66,14 @@ $more = 0;
 
 
 				<div class="featured-resources-frame">
-
-					<div class="section-title"><h1>Featured Resources</h1></div>
  	
 						<div class="featured-resources-inner">
-					
+							<div class="section-title"><h1>Featured Resources</h1></div>
 								<!-- Posts Carousel goes here -->
-								<?php if ( have_posts() ) : 
+								<img src="http://caregiverhq.blatbrun.com/wp-content/themes/caregiver-hq/images/test-feed.png" class="bot-mar" alt="" title="">
 
-			       					$recentPosts = new WP_Query();
-			       					$recentPosts->query('showposts=1'); ?>
-
-									<?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
-									
-									
-									<?php the_title( '<h3>', '</h3>' ); ?>
-									<div class="front-date"><?php the_date(); ?></div>
-									<?php the_excerpt(); ?> 
-
-								<?php endwhile; else : ?>
-									<p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
-								<?php endif; ?>				
-								<!-- end test -->
-
+							<div class="btn-home-services"><a href="#" alt="">View all resources</a></div>
 						</div>
-
-						<div class="btn-home-services"><a href="#" alt="">View all resources</a></div>
 
 				</div>
 

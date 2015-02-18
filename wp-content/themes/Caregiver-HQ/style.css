@@ -293,11 +293,12 @@ span.wpcf7-list-item {
 	padding: 8px 16px;
 	color: #fff;
 	text-transform: uppercase;
-	display: inline;
+	display: inline-block;
 	float: none;
 	text-align: center;
 	border-radius: 5px;
 	border-bottom: 4px solid #649495;
+	margin: 2em auto;
 }
 
 .btn-home-services.header {
@@ -311,6 +312,7 @@ span.wpcf7-list-item {
 	border-radius: 5px;
 	border-bottom: 4px solid #649495;
 	float: left;
+	margin: 0 auto;
 }
 
 .branded {
@@ -986,6 +988,54 @@ body.pmb-open #wrapper {
 	display: none;
 }
 
+.front-date {
+	width: 19%;
+	float: left;
+	height: 250px;
+	border-right: 1px solid #ebebeb;
+	color: #f9af76;
+	font-family: "museo-slab";
+	font-weight: bolder;
+	display: inline-block;
+}
+
+.front-post {
+	width: 75%;
+	display: inline-block;
+}
+
+.front-post h3 {
+	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
+	text-transform: uppercase;
+	font-size: 27px;
+	color: #85c5c7;
+	margin: 1.5em 0 0 0;
+}
+
+.front-post p {
+	font-family: "museo-slab";
+	color: #333333;
+	text-transform: none;
+	font-size: 16px;
+}
+
+.read-more {
+	background: transparent;
+	padding: 8px 16px;
+	color: #85c5c7;
+	text-transform: uppercase;
+	display: inline-block;
+	float: right;
+	text-align: center;
+	border-radius: 0px;
+	border-bottom: 0px solid #649495;
+	margin: 0em auto;
+}
+
+.read-more a {
+	color: #85c5c7;
+}
+
 .super-hero.home {
 	position: relative;
 	top: 0;
@@ -1607,8 +1657,12 @@ font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; f
 .featured-resources-inner {
 	max-width: 960px;
 	width: 100%;
+	height: 250px;
 	margin: 0 auto;
 	background: #fff;
+	display: block;
+	position: relative;
+	z-index: 9999;
 }
 
 .featured-resources-inner h3 {

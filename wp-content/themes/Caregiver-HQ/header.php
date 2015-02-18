@@ -85,11 +85,11 @@ if ( !defined( 'ABSPATH' ) ) {
 </div>
 
 <div id="enroll">
-<div class="btn-home-services header"><a href="enrollment/" alt=""><i class="fa fa-heart"></i>&nbsp;Enroll</a></div>
+<div class="btn-home-services header"><a href="/?page_id=123" alt=""><i class="fa fa-heart"></i>&nbsp;Enroll</a></div>
 </div>
 
 <div id="refer">
-<div class="btn-home-services header"><a href="referrals/" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
+<div class="btn-home-services header"><a href="/?page_id=104" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
 </div>
 
 		<?php endif; // header image was removed ?>

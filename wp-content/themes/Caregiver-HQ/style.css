@@ -50,6 +50,19 @@ a {
 	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
 }
 
+.#sf-sidebar .sf-label-metro .sf-navicon-button {
+	background-color: #fff;
+}
+
+#sf-sidebar .sf-label-metro .sf-navicon, #sf-sidebar .sf-label-metro .sf-navicon:after, #sf-sidebar .sf-label-metro .sf-navicon:before {
+	background: #85c5c7;
+	z-index: 1;
+}
+
+#menu-mainnav {
+	display: none;
+}
+
 .gtpm-menu-bar.gtpm-menu-btn-square.gtpm-menu-btn-square-right {
 	right: 200px;
 }
@@ -328,6 +341,26 @@ span.wpcf7-list-item {
 	display: none;
 }
 
+#widgets {
+	margin-top: 40px;
+	border-left: 1px solid #ebebeb;
+	padding-left: 20px;
+}
+
+.widget-title {
+	border-bottom: 1px solid #ebebeb;
+}
+
+
+.widget_archive select, #cat {
+	display: block;
+	margin: 14px 15px 0 0;
+	background: #f9f9f9;
+	border: 2px solid #ebebeb;
+	border-radius: 0px;
+	font-family: "museo-slab";
+}
+
 .post-title {
 	display: block;
 	color: #85c5c7;
@@ -356,6 +389,18 @@ span.wpcf7-list-item {
 	color: #333333;
 	text-transform: none;
 	font-size: 16px;
+}
+
+time {
+	color: #f9af76;
+}
+
+.author a {
+	color: #f9af76;
+}
+
+.post-data a {
+	color: #f9af76;
 }
 
 #content-full {
@@ -556,7 +601,7 @@ span.wpcf7-list-item {
 }
 
 
-.widget-title h3, .widget-title-home h3 {
+.widget-title-home h3 {
 	display: block;
 	font-family: "museo-slab";
 	color: #6c9d9d;
@@ -565,6 +610,17 @@ span.wpcf7-list-item {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0 0 20px 0;
+}
+
+.widget-title h3 {
+	display: block;
+	font-family: "museo-slab";
+	color: #6c9d9d;
+	font-size: 14px;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0px;
 }
 
 /* Header */
@@ -1609,7 +1665,7 @@ font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; f
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	background-color: #f9f9f9;
+	background-color: #fff;
 }
 
 .widget-title-home {
@@ -1632,12 +1688,21 @@ font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; f
 	text-transform: uppercase;
 }
 
+
 #widgets .textwidget {
 	display: block;
-	margin: 0;
+	margin: 1em auto;
 	line-height: 1.5em;
 	word-wrap: break-word;
-	text-align: center;
+	text-align: left;
+}
+
+#widgets .textwidget p {
+	font-family: "museo-slab";
+	color: #333333;
+	text-transform: none;
+	font-size: 16px;
+	margin: 1em auto;
 }
 
 .featured-resources-frame {

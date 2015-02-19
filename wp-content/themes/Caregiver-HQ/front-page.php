@@ -39,7 +39,7 @@ if ( !defined( 'ABSPATH' ) ) {
  	
 						<div class="connection-inner">
 								<div class="left-half">
-									<img src="http://caregiverhq.blatbrun.com/wp-content/themes/caregiver-hq/images/circles_temp.jpg" alt="" title="">
+									<img src="http://caregiverhq.blatbrun.com/wp-content/themes/caregiver-hq/images/circles_temp.png" alt="" title="">
 								</div>
 
 								<div class="right-half">

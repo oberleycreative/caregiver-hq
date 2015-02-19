@@ -45,6 +45,9 @@ if ( !defined( 'ABSPATH' ) ) {
 
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
+		<script src="http://caregiverhq.blatbrun.com/wp-content/themes/caregiver-hq/js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="http://caregiverhq.blatbrun.com/wp-content/themes/caregiver-hq/js/header.js"></script>
+
 		<script src="//use.typekit.net/cxy8chs.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 	
@@ -60,7 +63,7 @@ if ( !defined( 'ABSPATH' ) ) {
 		<a class="skip-link screen-reader-text focusable" href="#content"><?php _e( '&darr; Skip to Main Content', 'responsive' ); ?></a>
 	</div><!-- .skip-container -->
 
-<div class="header-wrapper">
+<div id="header-container" class="header-wrapper">
 	<div id="header">
 
 		<?php responsive_header_top(); // before header content hook ?>
@@ -85,11 +88,11 @@ if ( !defined( 'ABSPATH' ) ) {
 </div>
 
 <div id="enroll">
-<div class="btn-home-services header"><a href="/?page_id=123" alt=""><i class="fa fa-heart"></i>&nbsp;Enroll</a></div>
+<div class="btn-home-services header"><a href="/?page_id=123" alt=""><i class="fa fa-heart"></i><span class="hd-btn">Enroll</span></a></div>
 </div>
 
 <div id="refer">
-<div class="btn-home-services header"><a href="/?page_id=104" alt=""><i class="fa fa-envelope-o"></i>&nbsp;Refer</a></div>
+<div class="btn-home-services header"><a href="/?page_id=104" alt=""><i class="fa fa-envelope-o"></i><span class="hd-btn">Refer</span></a></div>
 </div>
 
 		<?php endif; // header image was removed ?>

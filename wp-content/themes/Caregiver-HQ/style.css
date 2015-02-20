@@ -140,6 +140,66 @@ a {
 	margin: 0 auto;
 }
 
+/* Subscription Options Block */
+
+.subscription-block {
+	float: left;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.subscription-block p {
+	font-family: "museo-slab";
+	color: #333333;
+	text-transform: none;
+	font-size: 14px;
+	padding: 0px 15px 15px 15px;
+}
+
+.col-220 {
+	width: 25%;
+}
+
+.open-chart {
+	height: 230px;
+}
+
+.title {
+	display: inline-block;
+	padding: 20px;
+	background: #729d9e;
+	width: 100%;
+	border-right: 1px solid #fff;
+}
+
+.title h5 {
+	font-family: "museo-slab";
+	color: #fff;
+	font-size: 30px;
+	margin-top: 0px;
+	font-style: italic;
+}
+
+.service-comp {
+	background: #f9f9f9;
+	padding: 15px 15px 15px 30px;
+	font-family: "museo-slab";
+	font-size: 20px;
+	color: #85c5c7;
+	text-align: left;
+}
+
+.service-comp-off {
+	background: #fff;
+	padding: 15px 15px 15px 30px;
+	font-family: "museo-slab";
+	font-size: 20px;
+	color: #85c5c7;
+	text-align: left;
+}
+
+/* End Subscription Options Block */
+
 
 form h4 {
 	font-family: 'Gotham Rounded SSm A', 'Gotham Rounded SSm B'; font-weight: 400; font-style: normal;
@@ -1307,6 +1367,27 @@ body.pmb-open #wrapper {
 	width: 100%;
 	margin: 0 auto;
 	margin-top: 5%;
+}
+
+.super-hero.subscriptions {
+	position: relative;
+	top: 0;
+	/* z-index: -1; */
+	background: url(images/temp_green.jpg) top left no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 425px;
+	overflow: visible;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.super-hero.subscriptions .super-hero-inner {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 6%;
 }
 
 .super-hero-inner {

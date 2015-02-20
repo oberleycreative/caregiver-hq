@@ -144,12 +144,8 @@ if ( !defined( 'ABSPATH' ) ) {
 									<?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
 
 
-									<div class="front-date">
-										<?php the_date('M', '<h2>', '</h2>'); ?>
-										<?php the_date('d', '<h2>', '</h2>'); ?>
-										<?php the_date('Y', '<h2>', '</h2>'); ?>
-									</div>
-
+									<div class="front-date"><?php the_date('M\<\b\r\/\>d\<\b\r\/\>Y', '<h2>', '</h2>'); ?></div>
+									
 									
 									<div class="front-post">
 									<?php the_title( '<h3>', '</h3>' ); ?>

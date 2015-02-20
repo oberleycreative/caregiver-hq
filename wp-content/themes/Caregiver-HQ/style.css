@@ -1281,7 +1281,7 @@ body.pmb-open #wrapper {
 }
 
 .front-date {
-	width: 19%;
+	width: 12%;
 	float: left;
 	height: 250px;
 	border-right: 1px solid #ebebeb;
@@ -1289,6 +1289,11 @@ body.pmb-open #wrapper {
 	font-family: "museo-slab";
 	font-weight: bolder;
 	display: inline-block;
+}
+
+.front-date h2 {
+	font-size: 1.5em;
+	text-transform: uppercase;
 }
 
 .front-post {

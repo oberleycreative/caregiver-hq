@@ -27,7 +27,7 @@ if ( !defined( 'ABSPATH' ) ) {
 			<div class="super-hero-callout">
 				<p><span class="branded">CaregiverHQ</span> provides family caregivers with first-rate guidance, resources, and knowledge, as well as access to premium health and wellness providers, online caregiver support groups, and a variety of personal solutions. Providing caregiver support is our number one priority. Whether you’re a full-time caregiver or you’ve just recently taken on the role, we’re here to provide all the resources you need to properly take care of your loved one – and yourself.</p>
 				<div clear="all"></div>
-				<div class="btn-home-services"><a href="#" alt="">Learn more</a></div>
+				<div class="btn-home-services-lrn"><a href="#" alt="">Learn more</a></div>
 			</div>
 	</div>
 
@@ -120,7 +120,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 </div>
 
-<div class="btn-home-services"><a href="subscriptions/" alt="">Enroll Now</a></div>
+<div class="btn-home-services-lrn"><a href="subscriptions/" alt="">Enroll Now</a></div>
 
 
 	
@@ -144,7 +144,12 @@ if ( !defined( 'ABSPATH' ) ) {
 									<?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>
 
 
-									<div class="front-date"><?php the_date(); ?></div>
+									<div class="front-date">
+										<?php the_date('M', '<h2>', '</h2>'); ?>
+										<?php the_date('d', '<h2>', '</h2>'); ?>
+										<?php the_date('Y', '<h2>', '</h2>'); ?>
+									</div>
+
 									
 									<div class="front-post">
 									<?php the_title( '<h3>', '</h3>' ); ?>
@@ -158,7 +163,7 @@ if ( !defined( 'ABSPATH' ) ) {
 
 						</div>
 
-						<div class="btn-home-services"><a href="#" alt="">View all resources</a></div>
+						<div class="btn-home-services-view"><a href="#" alt="">View all resources</a></div>
 
 				</div>
 							

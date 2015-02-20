@@ -156,15 +156,19 @@ a {
 	padding: 0px 15px 15px 15px;
 }
 
+.border-r {
+	border-right: 1px solid #e6e5e5;
+}
+
 .col-220 {
 	width: 25%;
 }
 
 .open-chart {
-	height: 230px;
+	height: 220px;
 }
 
-.title {
+.title-two {
 	display: inline-block;
 	padding: 20px;
 	background: #729d9e;
@@ -196,6 +200,12 @@ a {
 	font-size: 20px;
 	color: #85c5c7;
 	text-align: left;
+}
+
+.detail {
+	padding: 26px 15px 26px 30px;
+	text-align: center;
+	border-right: 1px solid #e6e5e5;
 }
 
 /* End Subscription Options Block */
@@ -372,6 +382,32 @@ span.wpcf7-list-item {
 	border-radius: 5px;
 	border-bottom: 4px solid #649495;
 	margin: 2em auto;
+}
+
+.btn-home-services-lrn {
+	background: #85c5c7;
+	padding: 8px 16px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	float: none;
+	text-align: center;
+	border-radius: 5px;
+	border-bottom: 4px solid #649495;
+	margin: .25em auto;
+}
+
+.btn-home-services-view {
+	background: #85c5c7;
+	padding: 8px 16px;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block;
+	float: none;
+	text-align: center;
+	border-radius: 5px;
+	border-bottom: 4px solid #649495;
+	margin: 4em auto;
 }
 
 .btn-home-services.header {
@@ -1578,7 +1614,7 @@ body.pmb-open #wrapper {
 	width: 100%;
 	height: 340px;
 	overflow: visible;
-	padding-top: 40px;
+	padding-top: 30px;
 	margin: 0 auto;
 	text-align: center;
 }
